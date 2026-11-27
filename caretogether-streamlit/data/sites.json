@@ -1,0 +1,140 @@
+{
+  "sites": [
+    {
+      "site": "Harbourview Aged Care",
+      "type": "Residential",
+      "town": "Balmain",
+      "postcode": "2041",
+      "state": "NSW",
+      "council": "Inner West Council",
+      "sa4": "Sydney – Inner West",
+      "ra": "Major Cities",
+      "mmm": "MM1",
+      "subRegion": "Sydney Inner West",
+      "group": "Metro"
+    },
+    {
+      "site": "Ryde Home Support",
+      "type": "Home care",
+      "town": "Ryde",
+      "postcode": "2112",
+      "state": "NSW",
+      "council": "City of Ryde",
+      "sa4": "Sydney – Ryde",
+      "ra": "Major Cities",
+      "mmm": "MM1",
+      "subRegion": "Northern Sydney",
+      "group": "Metro"
+    },
+    {
+      "site": "Parramatta Home Care",
+      "type": "Home care",
+      "town": "Parramatta",
+      "postcode": "2150",
+      "state": "NSW",
+      "council": "City of Parramatta",
+      "sa4": "Sydney – Parramatta",
+      "ra": "Major Cities",
+      "mmm": "MM1",
+      "subRegion": "Western Sydney",
+      "group": "Metro"
+    },
+    {
+      "site": "Orange Valley Lodge",
+      "type": "Residential",
+      "town": "Orange",
+      "postcode": "2800",
+      "state": "NSW",
+      "council": "Orange City Council",
+      "sa4": "Central West",
+      "ra": "Inner Regional",
+      "mmm": "MM3",
+      "subRegion": "Central West",
+      "group": "Regional"
+    },
+    {
+      "site": "Central West Home Care",
+      "type": "Home care",
+      "town": "Bathurst",
+      "postcode": "2795",
+      "state": "NSW",
+      "council": "Bathurst Regional Council",
+      "sa4": "Central West",
+      "ra": "Inner Regional",
+      "mmm": "MM3",
+      "subRegion": "Central West",
+      "group": "Regional"
+    },
+    {
+      "site": "Outback Gardens Hostel",
+      "type": "Residential",
+      "town": "Bourke",
+      "postcode": "2840",
+      "state": "NSW",
+      "council": "Bourke Shire Council",
+      "sa4": "Far West and Orana",
+      "ra": "Very Remote",
+      "mmm": "MM7",
+      "subRegion": "Far West and Orana",
+      "group": "Remote"
+    },
+    {
+      "site": "Far West Community Care",
+      "type": "Home care",
+      "town": "Wilcannia",
+      "postcode": "2836",
+      "state": "NSW",
+      "council": "Central Darling Shire",
+      "sa4": "Far West and Orana",
+      "ra": "Very Remote",
+      "mmm": "MM7",
+      "subRegion": "Far West and Orana",
+      "group": "Remote"
+    }
+  ],
+  "states": [
+    [
+      "NSW",
+      "New South Wales"
+    ],
+    [
+      "VIC",
+      "Victoria"
+    ],
+    [
+      "QLD",
+      "Queensland"
+    ],
+    [
+      "WA",
+      "Western Australia"
+    ],
+    [
+      "SA",
+      "South Australia"
+    ],
+    [
+      "TAS",
+      "Tasmania"
+    ],
+    [
+      "ACT",
+      "Australian Capital Territory"
+    ],
+    [
+      "NT",
+      "Northern Territory"
+    ]
+  ],
+  "sub_region_dash": {
+    "Sydney Inner West": [],
+    "Northern Sydney": [
+      8,
+      5
+    ],
+    "Western Sydney": [
+      2,
+      4
+    ]
+  }
+}

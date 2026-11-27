@@ -1,0 +1,1556 @@
+{
+  "sections": [
+    "Goals",
+    "What matters to me",
+    "Daily support",
+    "Falls prevention",
+    "Infection prevention",
+    "Safety when out"
+  ],
+  "reasons": [
+    "Scheduled review",
+    "Change in condition",
+    "After a fall",
+    "After an emergency alert",
+    "Hospital discharge",
+    "Resident or family request",
+    "Other (add a comment)"
+  ],
+  "relationships": [
+    "Resident",
+    "Enduring guardian",
+    "Family member",
+    "Other representative"
+  ],
+  "how_agreed": [
+    "In person",
+    "Phone",
+    "Video call",
+    "In writing"
+  ],
+  "plans": {
+    "R001": {
+      "owner": "Priya Shah, Care coordinator",
+      "every": 6,
+      "versions": [
+        {
+          "v": 1,
+          "date": "02/02/2024",
+          "by": "Priya Shah",
+          "role": "Care coordinator",
+          "reason": "First care plan",
+          "agreed": "Margaret and daughter Helen (enduring guardian)",
+          "risk": {
+            "falls": "Moderate",
+            "inf": "Low"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Stay living in my own home.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "g2",
+              "sec": "Goals",
+              "text": "Keep doing my own shopping in Parramatta.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "My daughter Helen being kept in the loop.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m2",
+              "sec": "What matters to me",
+              "text": "A cup of tea and the radio in the morning.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Help with shower and dressing",
+              "who": "Care worker",
+              "when": "08:00 daily",
+              "area": "Personal care"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "Prompt Webster-pak; RN checks weekly",
+              "who": "Care worker; RN",
+              "when": "08:00 and 18:00; RN Mondays",
+              "area": "Medicines"
+            },
+            {
+              "id": "d3",
+              "sec": "Daily support",
+              "text": "Prepare evening meal; check fluids",
+              "who": "Care worker",
+              "when": "18:00 daily",
+              "area": "Meals and fluids"
+            },
+            {
+              "id": "d4",
+              "sec": "Daily support",
+              "text": "Walking stick outdoors",
+              "who": "Margaret",
+              "when": "",
+              "area": "Mobility"
+            },
+            {
+              "id": "f1",
+              "sec": "Falls prevention",
+              "text": "Personal alarm pendant worn at all times",
+              "who": "Margaret",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "i1",
+              "sec": "Infection prevention",
+              "text": "Flu and COVID vaccines",
+              "who": "GP",
+              "when": "Each autumn",
+              "area": ""
+            }
+          ],
+          "note": ""
+        },
+        {
+          "v": 2,
+          "date": "20/03/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "After a fall",
+          "agreed": "Margaret and daughter Helen",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "change": [
+            [
+              "d4",
+              {
+                "text": "4-wheel frame indoors and outdoors",
+                "who": "Margaret; physio"
+              }
+            ]
+          ],
+          "add": [
+            {
+              "id": "f2",
+              "sec": "Falls prevention",
+              "text": "Temazepam stopped: watch for unsteadiness on morning visits",
+              "who": "Care worker",
+              "when": "Each morning visit",
+              "area": ""
+            },
+            {
+              "id": "f3",
+              "sec": "Falls prevention",
+              "text": "8-week home physio program after the falls clinic",
+              "who": "Physiotherapist",
+              "when": "From May 2026",
+              "area": ""
+            }
+          ],
+          "note": "Fall at home on 18/03; ED, no fracture."
+        },
+        {
+          "v": 3,
+          "date": "15/07/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "Change in condition",
+          "agreed": "Margaret",
+          "risk": {
+            "falls": "Moderate",
+            "inf": "Low"
+          },
+          "add": [
+            {
+              "id": "d5",
+              "sec": "Daily support",
+              "text": "Check ankles for swelling; weigh weekly",
+              "who": "Care worker",
+              "when": "Monday visit",
+              "area": "Meals and fluids"
+            }
+          ],
+          "note": "Amlodipine stopped for ankle swelling."
+        },
+        {
+          "v": 4,
+          "date": "12/11/2026",
+          "by": "Priya Shah",
+          "role": "Care coordinator",
+          "reason": "After an emergency alert",
+          "agreed": {
+            "name": "Margaret Ellis, with daughter Helen Ellis",
+            "rel": "Resident",
+            "how": "In person",
+            "date": "12/11/2026"
+          },
+          "risk": {
+            "falls": "Moderate",
+            "inf": "Low"
+          },
+          "change": [
+            [
+              "g2",
+              {
+                "text": "Keep doing my own shopping, with a set route and a phone check-in"
+              }
+            ]
+          ],
+          "add": [
+            {
+              "id": "s1",
+              "sec": "Safety when out",
+              "text": "Wear the GPS pendant when going out; location shown only during an alert",
+              "who": "Margaret; Helen",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "s2",
+              "sec": "Safety when out",
+              "text": "Phone Helen before leaving and when home again",
+              "who": "Margaret",
+              "when": "Every outing",
+              "area": ""
+            }
+          ],
+          "note": "Got lost at the bus interchange on 10/11 (alert A-1004)."
+        }
+      ]
+    },
+    "R002": {
+      "owner": "Priya Shah, Care coordinator",
+      "every": 12,
+      "versions": [
+        {
+          "v": 1,
+          "date": "14/05/2025",
+          "by": "Priya Shah",
+          "role": "Care coordinator",
+          "reason": "First care plan",
+          "agreed": "George and Mei",
+          "risk": {
+            "falls": "Low",
+            "inf": "Low"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Keep our independence at home together.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "g2",
+              "sec": "Goals",
+              "text": "Keep my diabetes well controlled.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "Friday dinner out with Mei at the shopping centre.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Cleaning and shopping help",
+              "who": "Care worker",
+              "when": "Tue and Fri 10:00",
+              "area": "Home help"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "Self-managed; Mei checks the weekly pill box",
+              "who": "George; Mei",
+              "when": "",
+              "area": "Medicines"
+            },
+            {
+              "id": "d3",
+              "sec": "Daily support",
+              "text": "Diabetes-friendly meals",
+              "who": "George; Mei",
+              "when": "",
+              "area": "Meals and fluids"
+            },
+            {
+              "id": "f1",
+              "sec": "Falls prevention",
+              "text": "Walk 30 minutes most days to keep strong",
+              "who": "George",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "i1",
+              "sec": "Infection prevention",
+              "text": "Flu and COVID vaccines; diabetic foot check every 6 months",
+              "who": "GP; podiatrist",
+              "when": "",
+              "area": ""
+            }
+          ],
+          "note": ""
+        },
+        {
+          "v": 2,
+          "date": "10/03/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "Change in condition",
+          "agreed": "George and Mei",
+          "risk": {
+            "falls": "Low",
+            "inf": "Low"
+          },
+          "add": [
+            {
+              "id": "d4",
+              "sec": "Daily support",
+              "text": "Sick-day plan for empagliflozin: stop if unwell and not eating, then call the GP",
+              "who": "George; Mei",
+              "when": "When unwell",
+              "area": "Medicines"
+            }
+          ],
+          "note": "Gliclazide stopped after two low blood sugars."
+        }
+      ]
+    },
+    "R003": {
+      "owner": "RN Sarah Mitchell, Registered Nurse",
+      "every": 3,
+      "versions": [
+        {
+          "v": 1,
+          "date": "08/04/2023",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "First care plan",
+          "agreed": "Son Peter (enduring guardian)",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Feel safe and settled in the memory support wing.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "Peter visiting on Sundays.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m2",
+              "sec": "What matters to me",
+              "text": "Gardening and music from the 1950s.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Full help with shower and dressing",
+              "who": "AIN",
+              "when": "Morning",
+              "area": "Personal care"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "4-wheel frame with staff supervision",
+              "who": "AIN",
+              "when": "All walks",
+              "area": "Mobility"
+            },
+            {
+              "id": "d3",
+              "sec": "Daily support",
+              "text": "Nurse-administered medicines",
+              "who": "RN",
+              "when": "08:00 and 20:00",
+              "area": "Medicines"
+            },
+            {
+              "id": "d4",
+              "sec": "Daily support",
+              "text": "Prompted toileting every 3 hours",
+              "who": "AIN",
+              "when": "Daytime",
+              "area": "Continence"
+            },
+            {
+              "id": "f1",
+              "sec": "Falls prevention",
+              "text": "Sensor mat beside the bed",
+              "who": "AIN",
+              "when": "Night",
+              "area": ""
+            },
+            {
+              "id": "f2",
+              "sec": "Falls prevention",
+              "text": "Hip protectors",
+              "who": "AIN",
+              "when": "Daily",
+              "area": ""
+            },
+            {
+              "id": "i1",
+              "sec": "Infection prevention",
+              "text": "Flu and COVID vaccines",
+              "who": "GP",
+              "when": "Yearly",
+              "area": ""
+            }
+          ],
+          "note": ""
+        },
+        {
+          "v": 2,
+          "date": "02/02/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "Change in condition",
+          "agreed": "Son Peter",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "change": [
+            [
+              "d3",
+              {
+                "text": "Nurse-administered; large tablets taken with yoghurt (speech pathology advice)"
+              }
+            ]
+          ],
+          "add": [
+            {
+              "id": "d5",
+              "sec": "Daily support",
+              "text": "Soft diet",
+              "who": "Kitchen; AIN",
+              "when": "All meals",
+              "area": "Meals and fluids"
+            }
+          ],
+          "note": "Trouble swallowing tablets; alendronate stopped."
+        },
+        {
+          "v": 3,
+          "date": "30/04/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "Scheduled review",
+          "agreed": "Son Peter",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "change": [
+            [
+              "d4",
+              {
+                "text": "Prompted toileting every 3 hours; oxybutynin stopped, so watch for leaks"
+              }
+            ]
+          ],
+          "note": "Medication review with the pharmacist."
+        },
+        {
+          "v": 4,
+          "date": "14/07/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "Change in condition",
+          "agreed": "Son Peter",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "add": [
+            {
+              "id": "d6",
+              "sec": "Daily support",
+              "text": "Weigh twice a week; tell the RN about a gain of 2 kg",
+              "who": "AIN; RN",
+              "when": "Mon and Thu",
+              "area": "Meals and fluids"
+            }
+          ],
+          "note": "Mild heart failure; furosemide started."
+        },
+        {
+          "v": 5,
+          "date": "05/11/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "Change in condition",
+          "agreed": "Son Peter",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "add": [
+            {
+              "id": "d7",
+              "sec": "Daily support",
+              "text": "Night routine: 1950s music, warm drink, low light",
+              "who": "AIN",
+              "when": "From 19:30",
+              "area": "Sleep"
+            },
+            {
+              "id": "f3",
+              "sec": "Falls prevention",
+              "text": "Extra falls watch for 2 weeks after starting risperidone",
+              "who": "AIN; RN",
+              "when": "Until 19/11/2026",
+              "area": ""
+            },
+            {
+              "id": "s1",
+              "sec": "Safety when out",
+              "text": "Watch safe zone around the memory support wing, with the door sensor",
+              "who": "Staff",
+              "when": "Always",
+              "area": ""
+            }
+          ],
+          "note": "Night-time agitation; risperidone 0.25 mg started."
+        }
+      ]
+    },
+    "R004": {
+      "owner": "Priya Shah, Care coordinator",
+      "every": 4,
+      "versions": [
+        {
+          "v": 1,
+          "date": "11/08/2025",
+          "by": "Priya Shah",
+          "role": "Care coordinator",
+          "reason": "First care plan",
+          "agreed": "Ahmed, with son Omid and a phone interpreter",
+          "risk": {
+            "falls": "Low",
+            "inf": "Low"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Stay out of hospital with my lungs.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "Family meals with my grandchildren.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Shower help",
+              "who": "Care worker",
+              "when": "Mon, Wed, Fri 09:00",
+              "area": "Personal care"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "Inhalers self-managed; son fills the pill box",
+              "who": "Ahmed; Omid",
+              "when": "Weekly",
+              "area": "Medicines"
+            },
+            {
+              "id": "f1",
+              "sec": "Falls prevention",
+              "text": "Walking stick outdoors",
+              "who": "Ahmed",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "i1",
+              "sec": "Infection prevention",
+              "text": "COPD action plan; flu and COVID vaccines",
+              "who": "GP",
+              "when": "",
+              "area": ""
+            }
+          ],
+          "note": ""
+        },
+        {
+          "v": 2,
+          "date": "12/08/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "Change in condition",
+          "agreed": "Ahmed and son Omid",
+          "risk": {
+            "falls": "Low",
+            "inf": "Low"
+          },
+          "change": [
+            [
+              "i1",
+              {
+                "text": "COPD action plan: start it at the first sign of a flare and call the GP; flu and COVID vaccines",
+                "who": "Ahmed; Omid; GP"
+              }
+            ]
+          ],
+          "add": [
+            {
+              "id": "d3",
+              "sec": "Daily support",
+              "text": "Pulmonary rehab exercises at home",
+              "who": "Ahmed",
+              "when": "3 times a week",
+              "area": "Mobility"
+            }
+          ],
+          "note": "COPD flare-up treated at home."
+        }
+      ]
+    },
+    "R005": {
+      "owner": "RN Claire Hughes, Registered Nurse",
+      "every": 3,
+      "versions": [
+        {
+          "v": 1,
+          "date": "19/09/2024",
+          "by": "RN Claire Hughes",
+          "role": "Registered Nurse",
+          "reason": "First care plan",
+          "agreed": "Patricia, with daughter Linh",
+          "risk": {
+            "falls": "Moderate",
+            "inf": "Low"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Keep my heart failure steady and stay out of hospital.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "Speaking Vietnamese with staff and family when I can.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Stand-by help in the shower",
+              "who": "AIN",
+              "when": "Morning",
+              "area": "Personal care"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "Nurse-administered medicines",
+              "who": "RN",
+              "when": "06:00, 08:00, 20:00",
+              "area": "Medicines"
+            },
+            {
+              "id": "d3",
+              "sec": "Daily support",
+              "text": "Low-salt meals",
+              "who": "Kitchen",
+              "when": "All meals",
+              "area": "Meals and fluids"
+            },
+            {
+              "id": "f1",
+              "sec": "Falls prevention",
+              "text": "Hip protectors",
+              "who": "AIN",
+              "when": "Daily",
+              "area": ""
+            },
+            {
+              "id": "i1",
+              "sec": "Infection prevention",
+              "text": "Flu and COVID vaccines",
+              "who": "GP",
+              "when": "Yearly",
+              "area": ""
+            }
+          ],
+          "note": ""
+        },
+        {
+          "v": 2,
+          "date": "03/03/2026",
+          "by": "RN Claire Hughes",
+          "role": "Registered Nurse",
+          "reason": "Hospital discharge",
+          "agreed": "Patricia and daughter Linh",
+          "risk": {
+            "falls": "Moderate",
+            "inf": "Low"
+          },
+          "add": [
+            {
+              "id": "d4",
+              "sec": "Daily support",
+              "text": "Weigh daily before breakfast; report a gain of 2 kg in 3 days",
+              "who": "AIN; RN",
+              "when": "07:00 daily",
+              "area": "Meals and fluids"
+            },
+            {
+              "id": "f2",
+              "sec": "Falls prevention",
+              "text": "Physio strength group",
+              "who": "Physiotherapist",
+              "when": "Twice a week",
+              "area": ""
+            }
+          ],
+          "note": "5-day hospital stay for fluid overload."
+        },
+        {
+          "v": 3,
+          "date": "28/10/2026",
+          "by": "RN Claire Hughes",
+          "role": "Registered Nurse",
+          "reason": "Change in condition",
+          "agreed": "Patricia",
+          "risk": {
+            "falls": "Moderate",
+            "inf": "Low"
+          },
+          "change": [
+            [
+              "d4",
+              {
+                "text": "Weigh daily before breakfast; a gain of 2 kg in 3 days: RN calls the heart failure nurse the same day"
+              }
+            ]
+          ],
+          "note": "Furosemide reduced to 20 mg for dizziness."
+        }
+      ]
+    },
+    "R006": {
+      "owner": "Priya Shah, Care coordinator",
+      "every": 6,
+      "versions": [
+        {
+          "v": 1,
+          "date": "03/03/2026",
+          "by": "Priya Shah",
+          "role": "Care coordinator",
+          "reason": "First care plan",
+          "agreed": "William and wife Carol",
+          "risk": {
+            "falls": "Low",
+            "inf": "Low"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Keep gardening while I wait for my knee operation.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "Time in the garden with Carol.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Garden and heavy cleaning",
+              "who": "Care worker",
+              "when": "Thursday 13:00",
+              "area": "Home help"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "Self-managed",
+              "who": "William",
+              "when": "",
+              "area": "Medicines"
+            },
+            {
+              "id": "f1",
+              "sec": "Falls prevention",
+              "text": "Hydrotherapy group",
+              "who": "Physiotherapist",
+              "when": "Weekly",
+              "area": ""
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    "R007": {
+      "owner": "RN Claire Hughes, Registered Nurse",
+      "every": 3,
+      "versions": [
+        {
+          "v": 1,
+          "date": "12/01/2025",
+          "by": "RN Claire Hughes",
+          "role": "Registered Nurse",
+          "reason": "First care plan",
+          "agreed": "Joan, with daughter-in-law Fiona",
+          "risk": {
+            "falls": "Moderate",
+            "inf": "Moderate"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Stay well and avoid going back to hospital.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "Visits from Fiona.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m2",
+              "sec": "What matters to me",
+              "text": "Crosswords and the garden.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Stand-by help in the shower",
+              "who": "AIN",
+              "when": "Morning",
+              "area": "Personal care"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "Nurse-administered from Webster-pak",
+              "who": "RN",
+              "when": "06:00, 08:00, 14:00, 20:00",
+              "area": "Medicines"
+            },
+            {
+              "id": "d3",
+              "sec": "Daily support",
+              "text": "Pads at night; prompted toileting",
+              "who": "AIN",
+              "when": "Night",
+              "area": "Continence"
+            },
+            {
+              "id": "d4",
+              "sec": "Daily support",
+              "text": "Fluid target 1.5 L a day; fluid chart",
+              "who": "AIN",
+              "when": "All day",
+              "area": "Meals and fluids"
+            },
+            {
+              "id": "f1",
+              "sec": "Falls prevention",
+              "text": "Night light; call bell in reach",
+              "who": "AIN",
+              "when": "Night",
+              "area": ""
+            },
+            {
+              "id": "i1",
+              "sec": "Infection prevention",
+              "text": "Watch for UTI signs: new confusion, burning, fever",
+              "who": "AIN; RN",
+              "when": "Every shift",
+              "area": ""
+            }
+          ],
+          "note": ""
+        },
+        {
+          "v": 2,
+          "date": "07/03/2026",
+          "by": "RN Claire Hughes",
+          "role": "Registered Nurse",
+          "reason": "Hospital discharge",
+          "agreed": "Joan and Fiona",
+          "risk": {
+            "falls": "Moderate",
+            "inf": "High"
+          },
+          "change": [
+            [
+              "i1",
+              {
+                "text": "Watch for UTI signs: new confusion, burning, fever; check temperature if unwell"
+              }
+            ]
+          ],
+          "add": [
+            {
+              "id": "i2",
+              "sec": "Infection prevention",
+              "text": "Antibiotic choices that suit her kidneys; avoid trimethoprim (allergy)",
+              "who": "GP; RN",
+              "when": "",
+              "area": ""
+            }
+          ],
+          "note": "Kidney infection; 4 days in hospital."
+        },
+        {
+          "v": 3,
+          "date": "02/09/2026",
+          "by": "RN Claire Hughes",
+          "role": "Registered Nurse",
+          "reason": "Scheduled review",
+          "agreed": "Joan and Fiona",
+          "risk": {
+            "falls": "Moderate",
+            "inf": "Low"
+          },
+          "add": [
+            {
+              "id": "i3",
+              "sec": "Infection prevention",
+              "text": "Methenamine twice daily and vaginal oestrogen twice a week to prevent UTIs",
+              "who": "RN",
+              "when": "08:00 and 20:00; Mon and Thu",
+              "area": ""
+            }
+          ],
+          "note": "Third UTI in 6 months."
+        }
+      ]
+    },
+    "R008": {
+      "owner": "Priya Shah, Care coordinator",
+      "every": 6,
+      "versions": [
+        {
+          "v": 1,
+          "date": "22/06/2024",
+          "by": "Priya Shah",
+          "role": "Care coordinator",
+          "reason": "First care plan",
+          "agreed": "Raymond and wife Teresa",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Keep walking to the letterbox and the garden every day.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "Teresa and I keep living in our home.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m2",
+              "sec": "What matters to me",
+              "text": "Watching the cricket.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Shower and dressing help",
+              "who": "Care worker",
+              "when": "07:30 daily",
+              "area": "Personal care"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "Parkinson's medicines on time, with phone alarms",
+              "who": "Raymond; Teresa",
+              "when": "07:00, 12:00, 17:00, 22:00",
+              "area": "Medicines"
+            },
+            {
+              "id": "d3",
+              "sec": "Daily support",
+              "text": "4-wheel frame indoors and outdoors",
+              "who": "Raymond",
+              "when": "",
+              "area": "Mobility"
+            },
+            {
+              "id": "f1",
+              "sec": "Falls prevention",
+              "text": "Physio home visits",
+              "who": "Physiotherapist",
+              "when": "Fortnightly",
+              "area": ""
+            },
+            {
+              "id": "f2",
+              "sec": "Falls prevention",
+              "text": "Bathroom rails; clear hallways",
+              "who": "Teresa; OT",
+              "when": "",
+              "area": ""
+            }
+          ],
+          "note": ""
+        },
+        {
+          "v": 2,
+          "date": "12/05/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "After a fall",
+          "agreed": "Raymond and Teresa",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "add": [
+            {
+              "id": "f3",
+              "sec": "Falls prevention",
+              "text": "Stand up slowly; check BP lying and standing weekly",
+              "who": "Raymond; RN",
+              "when": "Weekly",
+              "area": ""
+            },
+            {
+              "id": "f4",
+              "sec": "Falls prevention",
+              "text": "Cueing for freezing at doorways (count steps, floor tape)",
+              "who": "Physiotherapist; Teresa",
+              "when": "",
+              "area": ""
+            }
+          ],
+          "note": "Two falls in April; tamsulosin stopped."
+        },
+        {
+          "v": 3,
+          "date": "23/09/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "Change in condition",
+          "agreed": "Raymond and Teresa",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "change": [
+            [
+              "d2",
+              {
+                "text": "Levodopa 4 times a day exactly on time, with entacapone; keep an on/off diary",
+                "when": "07:00, 11:00, 15:00, 19:00, 22:00"
+              }
+            ]
+          ],
+          "note": "Wearing off between doses."
+        },
+        {
+          "v": 4,
+          "date": "14/10/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "After a fall",
+          "agreed": "Raymond and Teresa",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "change": [
+            [
+              "f1",
+              {
+                "when": "Weekly for 6 weeks"
+              }
+            ]
+          ],
+          "note": "Fall in the kitchen; bruised hip."
+        },
+        {
+          "v": 5,
+          "date": "12/11/2026",
+          "by": "Priya Shah",
+          "role": "Care coordinator",
+          "reason": "After a fall",
+          "agreed": {
+            "name": "Teresa Silva",
+            "rel": "Family member",
+            "how": "Phone",
+            "date": "12/11/2026"
+          },
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "status": "Draft",
+          "change": [
+            [
+              "f1",
+              {
+                "when": "Weekly until the end of December"
+              }
+            ]
+          ],
+          "add": [
+            {
+              "id": "f5",
+              "sec": "Falls prevention",
+              "text": "Fall alerts: automatic call-back to Teresa first, then the on-call RN",
+              "who": "Teresa; on-call RN",
+              "when": "Always",
+              "area": ""
+            }
+          ],
+          "note": "Fall alert on 11/11: freezing episode, sat down on the floor."
+        }
+      ]
+    },
+    "R009": {
+      "owner": "RN Sarah Mitchell, Registered Nurse",
+      "every": 3,
+      "versions": [
+        {
+          "v": 1,
+          "date": "04/11/2022",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "First care plan",
+          "agreed": "Son Graham (enduring guardian)",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Comfortable, settled and free of pain.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "Phone calls with Graham on Sundays.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Full help with shower; one assist with walking frame",
+              "who": "AIN",
+              "when": "Morning",
+              "area": "Personal care"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "Oxycodone as needed for pain",
+              "who": "RN",
+              "when": "As needed",
+              "area": "Medicines"
+            },
+            {
+              "id": "f1",
+              "sec": "Falls prevention",
+              "text": "Low bed and sensor mat",
+              "who": "AIN",
+              "when": "Night",
+              "area": ""
+            }
+          ],
+          "note": ""
+        },
+        {
+          "v": 2,
+          "date": "09/02/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "After a fall",
+          "agreed": "Son Graham",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "add": [
+            {
+              "id": "f2",
+              "sec": "Falls prevention",
+              "text": "Hip protectors every day",
+              "who": "AIN",
+              "when": "Daily",
+              "area": ""
+            }
+          ],
+          "note": "Fall on 28/01; wrist splint."
+        },
+        {
+          "v": 3,
+          "date": "12/08/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "After a fall",
+          "agreed": "Son Graham",
+          "risk": {
+            "falls": "High",
+            "inf": "Low"
+          },
+          "change": [
+            [
+              "d2",
+              {
+                "text": "Buprenorphine patch weekly; pain score each shift (PAINAD)",
+                "when": "Patch every Monday"
+              }
+            ]
+          ],
+          "note": "Fall with skin tear; drowsy after oxycodone."
+        }
+      ]
+    },
+    "R010": {
+      "owner": "Priya Shah, Care coordinator",
+      "every": 12,
+      "versions": [
+        {
+          "v": 1,
+          "date": "10/10/2025",
+          "by": "Priya Shah",
+          "role": "Care coordinator",
+          "reason": "First care plan",
+          "agreed": "Kevin",
+          "risk": {
+            "falls": "Low",
+            "inf": "Low"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Keep living on my property.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "My dogs and the quiet.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Shopping and cleaning help",
+              "who": "Care worker",
+              "when": "Fortnightly",
+              "area": "Home help"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "Webster-pak posted monthly",
+              "who": "Pharmacy",
+              "when": "Monthly",
+              "area": "Medicines"
+            },
+            {
+              "id": "s1",
+              "sec": "Safety when out",
+              "text": "Charge the watch every night; patchy mobile coverage at the property",
+              "who": "Kevin",
+              "when": "Nightly",
+              "area": ""
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    "R011": {
+      "owner": "Priya Shah, Care coordinator",
+      "every": 6,
+      "versions": [
+        {
+          "v": 1,
+          "date": "15/03/2025",
+          "by": "Priya Shah",
+          "role": "Care coordinator",
+          "reason": "First care plan",
+          "agreed": "Lillian, with daughter Grace",
+          "risk": {
+            "falls": "Moderate",
+            "inf": "Low"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Stay in my own home despite my eyesight.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "Talking books and the radio.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Breakfast and medicine prompt",
+              "who": "Care worker",
+              "when": "08:30 daily",
+              "area": "Meals and fluids"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "Large-print Webster-pak",
+              "who": "Pharmacy; care worker",
+              "when": "Weekly",
+              "area": "Medicines"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "v": 2,
+          "date": "20/05/2026",
+          "by": "Priya Shah",
+          "role": "Care coordinator",
+          "reason": "After a fall",
+          "agreed": "Lillian and Grace",
+          "risk": {
+            "falls": "Moderate",
+            "inf": "Low"
+          },
+          "add": [
+            {
+              "id": "f1",
+              "sec": "Falls prevention",
+              "text": "Night lights; rail on the front step",
+              "who": "OT",
+              "when": "Fitted June 2026",
+              "area": ""
+            }
+          ],
+          "note": "Fall on the front step at night."
+        },
+        {
+          "v": 3,
+          "date": "02/07/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "Change in condition",
+          "agreed": "Lillian and Grace",
+          "risk": {
+            "falls": "Moderate",
+            "inf": "Low"
+          },
+          "add": [
+            {
+              "id": "m2",
+              "sec": "What matters to me",
+              "text": "A phone call with Grace every evening.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d3",
+              "sec": "Daily support",
+              "text": "Sertraline; sleep chart for 4 weeks",
+              "who": "Care worker; GP",
+              "when": "Daily",
+              "area": "Sleep"
+            }
+          ],
+          "note": "Anxiety and low mood; zopiclone tapered off."
+        }
+      ]
+    },
+    "R012": {
+      "owner": "RN Sarah Mitchell, Registered Nurse",
+      "every": 3,
+      "versions": [
+        {
+          "v": 1,
+          "date": "05/10/2023",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "First care plan",
+          "agreed": "Frank",
+          "risk": {
+            "falls": "Low",
+            "inf": "Low"
+          },
+          "items": [
+            {
+              "id": "g1",
+              "sec": "Goals",
+              "text": "Get my words back and stay well after the stroke.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "m1",
+              "sec": "What matters to me",
+              "text": "Watching the football with other residents.",
+              "who": "",
+              "when": "",
+              "area": ""
+            },
+            {
+              "id": "d1",
+              "sec": "Daily support",
+              "text": "Help with shower and dressing (weak right arm)",
+              "who": "AIN",
+              "when": "Morning",
+              "area": "Personal care"
+            },
+            {
+              "id": "d2",
+              "sec": "Daily support",
+              "text": "Nurse-administered medicines",
+              "who": "RN",
+              "when": "08:00, 20:00",
+              "area": "Medicines"
+            },
+            {
+              "id": "d3",
+              "sec": "Daily support",
+              "text": "Communication book; speech group",
+              "who": "Speech pathologist",
+              "when": "Monthly",
+              "area": "Social and wellbeing"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "v": 2,
+          "date": "02/10/2026",
+          "by": "RN Sarah Mitchell",
+          "role": "Registered Nurse",
+          "reason": "Scheduled review",
+          "agreed": "Frank",
+          "risk": {
+            "falls": "Low",
+            "inf": "Low"
+          },
+          "add": [
+            {
+              "id": "d4",
+              "sec": "Daily support",
+              "text": "Right arm exercise program",
+              "who": "Physiotherapist",
+              "when": "3 times a week",
+              "area": "Mobility"
+            }
+          ],
+          "note": "Mood better; joining activities."
+        }
+      ]
+    }
+  }
+}

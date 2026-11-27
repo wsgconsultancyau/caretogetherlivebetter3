@@ -1,0 +1,703 @@
+{
+  "demo_now": "2026-11-13T21:05",
+  "lost_types": [
+    "Not home when expected",
+    "Left safe zone",
+    "SOS – lost while out"
+  ],
+  "alerts": [
+    {
+      "id": "A-1001",
+      "rid": "R009",
+      "type": "Left safe zone",
+      "status": "Resolved",
+      "start": "2026-11-07T16:40",
+      "found": "2026-11-07T16:46",
+      "raisedBy": "Watch left the hostel grounds safe zone",
+      "home": {
+        "lat": -30.0905,
+        "lon": 145.938,
+        "label": "Outback Gardens Hostel, Bourke"
+      },
+      "zone": 50,
+      "trail": [
+        [
+          "16:38",
+          -30.0905,
+          145.938,
+          "Lounge"
+        ],
+        [
+          "16:40",
+          -30.0909,
+          145.9387,
+          "Front gate"
+        ],
+        [
+          "16:44",
+          -30.0913,
+          145.9393,
+          "Car park"
+        ]
+      ],
+      "last": {
+        "time": "16:44",
+        "acc": 10,
+        "battery": 72,
+        "move": "Standing still"
+      },
+      "describe": "Floral dress, white cardigan, walking frame.",
+      "outcome": "Walked out with visitors. Found in the car park after 6 minutes and walked back calmly.",
+      "log": [
+        [
+          "16:40",
+          "Safe zone alert to staff phones"
+        ],
+        [
+          "16:41",
+          "Care worker opened location"
+        ],
+        [
+          "16:46",
+          "Found in car park"
+        ]
+      ]
+    },
+    {
+      "id": "A-1002",
+      "rid": "R011",
+      "type": "No movement (2 hours)",
+      "status": "Resolved",
+      "start": "2026-11-08T07:45",
+      "found": "2026-11-08T08:10",
+      "raisedBy": "Watch: no movement since 05:45",
+      "home": {
+        "lat": -31.559,
+        "lon": 143.3785,
+        "label": "Home, Wilcannia"
+      },
+      "trail": [
+        [
+          "07:45",
+          -31.559,
+          143.3785,
+          "At home"
+        ]
+      ],
+      "last": {
+        "time": "07:45",
+        "acc": 20,
+        "battery": 59,
+        "move": "Not moving"
+      },
+      "outcome": "On-call phoned, no answer. Care worker attended: asleep in her armchair, OK.",
+      "log": [
+        [
+          "07:45",
+          "Alert to on-call"
+        ],
+        [
+          "07:47",
+          "On-call opened location: at home"
+        ],
+        [
+          "08:10",
+          "Care worker attended"
+        ]
+      ]
+    },
+    {
+      "id": "A-1003",
+      "rid": "R010",
+      "type": "Watch offline",
+      "status": "Resolved",
+      "start": "2026-11-09T08:00",
+      "found": "2026-11-12T09:30",
+      "raisedBy": "No signal for 12 hours",
+      "home": {
+        "lat": -31.3,
+        "lon": 143.75,
+        "label": "Property near Wilcannia"
+      },
+      "trail": [
+        [
+          "08/11 18:20",
+          -31.3,
+          143.75,
+          "Last signal before battery went flat"
+        ]
+      ],
+      "last": {
+        "time": "08/11 18:20",
+        "acc": 60,
+        "battery": 0,
+        "move": "Unknown"
+      },
+      "outcome": "Watch battery flat and patchy mobile coverage at the property. Daughter phoned Kevin; watch charged on 12/11.",
+      "log": [
+        [
+          "09/11 08:00",
+          "Offline alert"
+        ],
+        [
+          "09/11 09:10",
+          "Coordinator phoned daughter"
+        ],
+        [
+          "12/11 09:30",
+          "Watch back online"
+        ]
+      ]
+    },
+    {
+      "id": "A-1004",
+      "rid": "R001",
+      "type": "SOS – lost while out",
+      "status": "Resolved",
+      "start": "2026-11-10T14:10",
+      "found": "2026-11-10T14:45",
+      "raisedBy": "Margaret pressed her pendant",
+      "home": {
+        "lat": -33.804,
+        "lon": 151.008,
+        "label": "Home, Parramatta"
+      },
+      "landmarks": [
+        {
+          "lat": -33.8172,
+          "lon": 151.0036,
+          "label": "Bus interchange"
+        }
+      ],
+      "trail": [
+        [
+          "13:05",
+          -33.804,
+          151.008,
+          "Left home"
+        ],
+        [
+          "13:20",
+          -33.8072,
+          151.0061
+        ],
+        [
+          "13:35",
+          -33.8108,
+          151.0047
+        ],
+        [
+          "13:50",
+          -33.8146,
+          151.004
+        ],
+        [
+          "14:10",
+          -33.8172,
+          151.0036,
+          "SOS pressed"
+        ]
+      ],
+      "last": {
+        "time": "14:10",
+        "acc": 10,
+        "battery": 72,
+        "move": "Not moving"
+      },
+      "describe": "Blue raincoat, 4-wheel walking frame, shopping bag.",
+      "outcome": "Could not say where she was. The monitoring centre stayed on the line and her daughter Helen collected her from the bus interchange.",
+      "log": [
+        [
+          "14:10",
+          "SOS to monitoring centre"
+        ],
+        [
+          "14:11",
+          "Monitoring centre opened location"
+        ],
+        [
+          "14:14",
+          "Daughter Helen called and sent the location"
+        ],
+        [
+          "14:45",
+          "Collected by daughter"
+        ]
+      ]
+    },
+    {
+      "id": "A-1005",
+      "rid": "R008",
+      "type": "Fall detected",
+      "status": "Resolved",
+      "start": "2026-11-11T10:20",
+      "found": "2026-11-11T10:21",
+      "raisedBy": "Watch detected a hard fall",
+      "home": {
+        "lat": -33.5325,
+        "lon": 149.2545,
+        "label": "Home, Blayney"
+      },
+      "trail": [
+        [
+          "10:20",
+          -33.5325,
+          149.2545,
+          "Kitchen"
+        ]
+      ],
+      "last": {
+        "time": "10:20",
+        "acc": 15,
+        "battery": 47,
+        "move": "Not moving"
+      },
+      "outcome": "Wife answered the call-back: freezing episode, sat down on the floor, no injury. Physio visited the same morning.",
+      "log": [
+        [
+          "10:20",
+          "Fall alert, automatic call-back"
+        ],
+        [
+          "10:21",
+          "Teresa (wife) answered"
+        ]
+      ]
+    },
+    {
+      "id": "A-1006",
+      "rid": "R003",
+      "type": "Fall detected",
+      "status": "Resolved",
+      "start": "2026-11-12T15:05",
+      "found": "2026-11-12T15:07",
+      "raisedBy": "Watch detected a sudden drop",
+      "home": {
+        "lat": -33.8585,
+        "lon": 151.1795,
+        "label": "Harbourview Aged Care, Balmain"
+      },
+      "trail": [
+        [
+          "15:05",
+          -33.8585,
+          151.1795,
+          "Lounge"
+        ]
+      ],
+      "last": {
+        "time": "15:05",
+        "acc": 8,
+        "battery": 77,
+        "move": "Standing"
+      },
+      "outcome": "Near miss: holding the doorframe, did not fall. Recorded as an observation.",
+      "log": [
+        [
+          "15:05",
+          "Alert to staff phones"
+        ],
+        [
+          "15:07",
+          "AIN attended"
+        ]
+      ]
+    },
+    {
+      "id": "A-1007",
+      "rid": "R007",
+      "type": "SOS button",
+      "status": "Resolved",
+      "start": "2026-11-12T02:10",
+      "found": "2026-11-12T02:13",
+      "raisedBy": "Joan pressed her watch button",
+      "home": {
+        "lat": -33.2835,
+        "lon": 149.099,
+        "label": "Orange Valley Lodge, Orange"
+      },
+      "trail": [
+        [
+          "02:10",
+          -33.2835,
+          149.099,
+          "Own room"
+        ]
+      ],
+      "last": {
+        "time": "02:10",
+        "acc": 8,
+        "battery": 52,
+        "move": "In bed"
+      },
+      "outcome": "Confused and thirsty; temperature 37.6 °C. Fluids given and day RN told.",
+      "log": [
+        [
+          "02:10",
+          "SOS to night RN"
+        ],
+        [
+          "02:13",
+          "RN attended"
+        ]
+      ]
+    },
+    {
+      "id": "A-1008",
+      "rid": "R013",
+      "type": "Low battery",
+      "status": "Acknowledged",
+      "start": "2026-11-13T18:30",
+      "found": null,
+      "raisedBy": "Watch battery 15%",
+      "home": null,
+      "trail": [],
+      "last": null,
+      "outcome": "Location not shared: consent is still pending. Coordinator phoned and reminded Irene to charge the watch tonight.",
+      "log": [
+        [
+          "18:30",
+          "Low battery alert"
+        ],
+        [
+          "18:45",
+          "Coordinator phoned Irene"
+        ]
+      ]
+    },
+    {
+      "id": "A-1009",
+      "rid": "R002",
+      "companion": "Mei Tan (wife)",
+      "type": "Not home when expected",
+      "status": "Open",
+      "start": "2026-11-13T20:35",
+      "found": null,
+      "raisedBy": "Family app: not home by the agreed time (20:30)",
+      "home": {
+        "lat": -33.8098,
+        "lon": 151.0985,
+        "label": "Home, Ryde"
+      },
+      "landmarks": [
+        {
+          "lat": -33.8143,
+          "lon": 151.1052,
+          "label": "Shopping centre"
+        },
+        {
+          "lat": -33.8228,
+          "lon": 151.1015,
+          "label": "Park"
+        }
+      ],
+      "trail": [
+        [
+          "17:40",
+          -33.8098,
+          151.0985,
+          "Left home together"
+        ],
+        [
+          "17:52",
+          -33.8116,
+          151.1013
+        ],
+        [
+          "18:05",
+          -33.8138,
+          151.1043
+        ],
+        [
+          "18:10",
+          -33.8143,
+          151.1052,
+          "At shopping centre until 19:55"
+        ],
+        [
+          "20:08",
+          -33.817,
+          151.1066
+        ],
+        [
+          "20:21",
+          -33.8203,
+          151.1051
+        ],
+        [
+          "20:39",
+          -33.8233,
+          151.1023,
+          "Walking past the park"
+        ],
+        [
+          "20:52",
+          -33.825,
+          151.0991
+        ],
+        [
+          "21:02",
+          -33.8262,
+          151.097,
+          "Last update"
+        ]
+      ],
+      "trail2": [
+        [
+          "17:40",
+          -33.8099,
+          151.0987
+        ],
+        [
+          "18:05",
+          -33.8139,
+          151.1045
+        ],
+        [
+          "18:10",
+          -33.8144,
+          151.1053,
+          "At shopping centre"
+        ],
+        [
+          "20:08",
+          -33.8171,
+          151.1068
+        ],
+        [
+          "20:21",
+          -33.8205,
+          151.1053
+        ],
+        [
+          "20:39",
+          -33.8236,
+          151.1025
+        ],
+        [
+          "20:58",
+          -33.8257,
+          151.0981,
+          "Last update"
+        ]
+      ],
+      "last": {
+        "time": "21:02",
+        "acc": 15,
+        "battery": 41,
+        "move": "Walking slowly, heading south-west"
+      },
+      "last2": {
+        "time": "20:58",
+        "acc": 25,
+        "battery": 18,
+        "move": "Walking"
+      },
+      "describe": "George: navy jacket, grey cap. Mei: red cardigan, carrying a shopping bag. Usually home by 19:30 after Friday dinner at the shopping centre.",
+      "log": [
+        [
+          "20:35",
+          "Alert from family app to on-call"
+        ],
+        [
+          "20:38",
+          "On-call RN opened location"
+        ],
+        [
+          "20:41",
+          "Watch called – no answer"
+        ],
+        [
+          "20:44",
+          "Daughter called; driving to the last location"
+        ],
+        [
+          "21:02",
+          "Location refreshed"
+        ]
+      ]
+    },
+    {
+      "id": "A-1010",
+      "rid": "R003",
+      "type": "Left safe zone",
+      "status": "Resolved",
+      "start": "2026-11-13T20:50",
+      "found": "2026-11-13T20:58",
+      "raisedBy": "Watch and door sensor: left the memory support wing",
+      "home": {
+        "lat": -33.8585,
+        "lon": 151.1795,
+        "label": "Harbourview Aged Care, Balmain"
+      },
+      "zone": 35,
+      "trail": [
+        [
+          "20:47",
+          -33.8585,
+          151.1795,
+          "Lounge"
+        ],
+        [
+          "20:50",
+          -33.85875,
+          151.17985,
+          "Wing exit door"
+        ],
+        [
+          "20:53",
+          -33.859,
+          151.1802
+        ],
+        [
+          "20:58",
+          -33.85915,
+          151.1806,
+          "Garden bench"
+        ]
+      ],
+      "last": {
+        "time": "20:58",
+        "acc": 8,
+        "battery": 76,
+        "move": "Sitting"
+      },
+      "describe": "Pink dressing gown, slippers, walking frame.",
+      "outcome": "Found on the garden bench after 8 minutes and walked back with an AIN.",
+      "log": [
+        [
+          "20:50",
+          "Safe zone alert to staff phones"
+        ],
+        [
+          "20:51",
+          "AIN opened location"
+        ],
+        [
+          "20:58",
+          "Found in garden"
+        ]
+      ]
+    }
+  ],
+  "consent": {
+    "R001": {
+      "status": "Agreed",
+      "by": "Margaret, with daughter Helen (enduring guardian)",
+      "date": "02/02/2024",
+      "when": "During an alert",
+      "zone": "–",
+      "device": "GPS pendant",
+      "battery": 64
+    },
+    "R002": {
+      "status": "Agreed",
+      "by": "George; Mei agreed for her own companion tag",
+      "date": "14/05/2025",
+      "when": "During an alert, or if not home by the agreed time",
+      "zone": "Home-by check: Fridays 20:30",
+      "device": "Watch + companion tag",
+      "battery": 41,
+      "battery2": 18
+    },
+    "R003": {
+      "status": "Agreed",
+      "by": "Son Peter (enduring guardian)",
+      "date": "08/04/2023",
+      "when": "During an alert, or when leaving the safe zone",
+      "zone": "Memory support wing (35 m)",
+      "device": "Watch",
+      "battery": 76
+    },
+    "R004": {
+      "status": "Agreed",
+      "by": "Ahmed, with a phone interpreter",
+      "date": "11/08/2025",
+      "when": "During an alert",
+      "zone": "–",
+      "device": "Watch",
+      "battery": 58
+    },
+    "R005": {
+      "status": "Agreed",
+      "by": "Patricia, with daughter Linh",
+      "date": "19/09/2024",
+      "when": "During an alert",
+      "zone": "–",
+      "device": "Watch",
+      "battery": 66
+    },
+    "R006": {
+      "status": "Agreed",
+      "by": "William",
+      "date": "03/03/2026",
+      "when": "During an alert",
+      "zone": "–",
+      "device": "Watch",
+      "battery": 81
+    },
+    "R007": {
+      "status": "Agreed",
+      "by": "Joan, with daughter-in-law Fiona",
+      "date": "12/01/2025",
+      "when": "During an alert",
+      "zone": "–",
+      "device": "Watch",
+      "battery": 52
+    },
+    "R008": {
+      "status": "Agreed",
+      "by": "Raymond, with wife Teresa",
+      "date": "22/06/2024",
+      "when": "During an alert",
+      "zone": "–",
+      "device": "Watch",
+      "battery": 47
+    },
+    "R009": {
+      "status": "Agreed",
+      "by": "Son Graham (enduring guardian)",
+      "date": "04/11/2022",
+      "when": "During an alert, or when leaving the safe zone",
+      "zone": "Hostel grounds (50 m)",
+      "device": "Watch",
+      "battery": 70
+    },
+    "R010": {
+      "status": "Agreed",
+      "by": "Kevin",
+      "date": "10/10/2025",
+      "when": "During an alert",
+      "zone": "– (patchy mobile coverage at the property)",
+      "device": "Watch",
+      "battery": 35
+    },
+    "R011": {
+      "status": "Agreed",
+      "by": "Lillian, with daughter Grace",
+      "date": "15/03/2025",
+      "when": "During an alert",
+      "zone": "–",
+      "device": "Watch",
+      "battery": 59
+    },
+    "R012": {
+      "status": "Agreed",
+      "by": "Frank",
+      "date": "05/10/2023",
+      "when": "During an alert",
+      "zone": "–",
+      "device": "Watch",
+      "battery": 88
+    },
+    "R013": {
+      "status": "Pending",
+      "by": "Consent form sent 10/11/2026",
+      "date": "–",
+      "when": "Not shared until consent is recorded",
+      "zone": "–",
+      "device": "Watch",
+      "battery": 15
+    }
+  }
+}

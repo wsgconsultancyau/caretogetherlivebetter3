@@ -1,0 +1,4 @@
+id,resident_id,date,type,role,temp,note
+s1,R003,2026-11-12,Near miss,AIN / Care worker,,"Found holding onto the doorframe, unsteady getting up from the chair. Did not fall."
+s2,R007,2026-11-13,Confusion / behaviour change,Registered Nurse,38.0,More confused than usual this morning. Not drinking much. GP informed.
+s3,R008,2026-11-11,Reduced mobility,Physiotherapist,,"Shuffling gait, more freezing episodes. Review of walking frame booked."

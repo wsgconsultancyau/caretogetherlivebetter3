@@ -1,0 +1,3946 @@
+{
+  "visit_tone": {
+    "GP": {
+      "bg": "#DDEFEA",
+      "ink": "#0A4F47"
+    },
+    "Hospital": {
+      "bg": "#E1ECF8",
+      "ink": "#153F70"
+    },
+    "Medical centre": {
+      "bg": "#EEE8F6",
+      "ink": "#4A2F80"
+    }
+  },
+  "records": {
+    "R001": {
+      "demoId": "DEMO-0001",
+      "dob": "14/03/1942",
+      "sex": "Female",
+      "program": "Home care · Support at Home",
+      "updated": "25/11/2026",
+      "allergies": [
+        {
+          "name": "Penicillin",
+          "reaction": "rash, hives"
+        },
+        {
+          "name": "Codeine",
+          "reaction": "nausea, confusion"
+        },
+        {
+          "name": "Temazepam",
+          "reaction": "drowsiness, unsteady walking"
+        }
+      ],
+      "profile": [
+        [
+          "Living situation",
+          "Lives alone, Parramatta NSW"
+        ],
+        [
+          "Care started",
+          "02/02/2024"
+        ],
+        [
+          "Care visits",
+          "Care worker 08:00 and 18:00 daily; RN every Monday"
+        ],
+        [
+          "Mobility",
+          "4-wheel frame; personal alarm pendant"
+        ],
+        [
+          "Cognition",
+          "Mild cognitive impairment; consents with family support"
+        ],
+        [
+          "Medication support",
+          "Webster-pak; worker prompts, RN checks weekly"
+        ],
+        [
+          "Next of kin",
+          "Helen Ellis (daughter), enduring guardian"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Anil Patel",
+          "role": "General Practitioner",
+          "note": "Riverside Medical Centre"
+        },
+        {
+          "name": "Dr Sarah Lim",
+          "role": "Cardiologist",
+          "note": "Review every 6 months"
+        },
+        {
+          "name": "Dr Tom Reid",
+          "role": "Geriatrician",
+          "note": "Memory review yearly"
+        },
+        {
+          "name": "Riverside Community Pharmacy",
+          "role": "Pharmacy",
+          "note": "Weekly Webster-pak delivery"
+        }
+      ],
+      "conditions": [
+        [
+          "Hypertension",
+          "2008"
+        ],
+        [
+          "Type 2 diabetes",
+          "2012"
+        ],
+        [
+          "Osteoarthritis, knees",
+          "2015"
+        ],
+        [
+          "Atrial fibrillation",
+          "2019"
+        ],
+        [
+          "Osteoporosis",
+          "2020"
+        ],
+        [
+          "CKD stage 3a",
+          "2023"
+        ],
+        [
+          "Mild cognitive impairment",
+          "2024"
+        ],
+        [
+          "Insomnia",
+          "2024"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "eGFR (Aug 2026)",
+          "value": "52",
+          "unit": "mL/min"
+        },
+        {
+          "label": "HbA1c (Aug 2026)",
+          "value": "7.4%",
+          "unit": ""
+        }
+      ],
+      "medsNote": "staff prompt from Webster-pak",
+      "meds": [
+        {
+          "med": "Apixaban",
+          "dose": "2.5 mg · 08:00, 20:00",
+          "forWhat": "Atrial fibrillation",
+          "started": "2023 – stroke prevention; replaced warfarin",
+          "last": "12/01/2026 · dose reduced"
+        },
+        {
+          "med": "Perindopril",
+          "dose": "5 mg · 08:00",
+          "forWhat": "Hypertension",
+          "started": "2008 – high blood pressure",
+          "last": "15/07/2026 · increased"
+        },
+        {
+          "med": "Metformin",
+          "dose": "500 mg · 08:00, 18:00 with meals",
+          "forWhat": "Type 2 diabetes",
+          "started": "2012 – diabetes diagnosed",
+          "last": "18/08/2026 · reduced"
+        },
+        {
+          "med": "Linagliptin",
+          "dose": "5 mg · 08:00",
+          "forWhat": "Type 2 diabetes",
+          "started": "18/08/2026 – sugar control after metformin cut",
+          "last": ""
+        },
+        {
+          "med": "Paracetamol MR",
+          "dose": "1330 mg · 08:00, 14:00, 20:00",
+          "forWhat": "Osteoarthritis pain",
+          "started": "20/03/2026 – knee pain limiting walking",
+          "last": ""
+        },
+        {
+          "med": "Alendronate",
+          "dose": "70 mg · Sunday 06:00",
+          "forWhat": "Osteoporosis",
+          "started": "2020 – after wrist fracture",
+          "last": ""
+        },
+        {
+          "med": "Vitamin D",
+          "dose": "1000 IU · 08:00",
+          "forWhat": "Osteoporosis",
+          "started": "2020 – bone strength with alendronate",
+          "last": ""
+        },
+        {
+          "med": "Melatonin PR",
+          "dose": "2 mg · 21:00",
+          "forWhat": "Insomnia",
+          "started": "20/03/2026 – replaced temazepam after fall",
+          "last": ""
+        },
+        {
+          "med": "Movicol",
+          "dose": "1 sachet · as needed, max 2/day",
+          "forWhat": "Constipation",
+          "started": "18/08/2026 – constipation reported",
+          "last": "05/11/2026 · now as needed"
+        }
+      ],
+      "changesBy": "the GP and cardiologist",
+      "changes": [
+        {
+          "date": "05/11/2026",
+          "med": "Movicol",
+          "kind": "Change",
+          "type": "Frequency changed",
+          "by": "Dr Patel",
+          "change": "Daily sachet → as needed",
+          "why": "Bowels regular for 4 weeks",
+          "monitor": "Bowel chart daily"
+        },
+        {
+          "date": "18/08/2026",
+          "med": "Metformin",
+          "kind": "Change",
+          "type": "Dose reduced",
+          "by": "Dr Patel",
+          "change": "1000 mg → 500 mg twice daily",
+          "why": "Kidney function dropped (eGFR 61 → 52)",
+          "monitor": "Blood glucose twice daily for 2 weeks"
+        },
+        {
+          "date": "18/08/2026",
+          "med": "Linagliptin",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Patel",
+          "change": "Started 5 mg once daily",
+          "why": "Keep sugar control after metformin cut",
+          "monitor": "HbA1c in 3 months"
+        },
+        {
+          "date": "15/07/2026",
+          "med": "Amlodipine",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Patel",
+          "change": "5 mg once daily → stopped",
+          "why": "Ankle swelling",
+          "monitor": "Daily ankle check, weekly weight"
+        },
+        {
+          "date": "15/07/2026",
+          "med": "Perindopril",
+          "kind": "Change",
+          "type": "Dose increased",
+          "by": "Dr Patel",
+          "change": "2.5 mg → 5 mg once daily",
+          "why": "Replace amlodipine for BP control",
+          "monitor": "BP twice daily; kidney test at 2 weeks"
+        },
+        {
+          "date": "10/06/2026",
+          "med": "Trimethoprim",
+          "kind": "New",
+          "type": "Short course",
+          "by": "Dr Patel",
+          "change": "300 mg at night for 3 days",
+          "why": "Urinary tract infection (penicillin allergy)",
+          "monitor": "Temperature, fluids, urine symptoms"
+        },
+        {
+          "date": "20/03/2026",
+          "med": "Temazepam",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Patel",
+          "change": "10 mg at night → stopped",
+          "why": "Fall and morning drowsiness",
+          "monitor": "Sleep chart, falls watch"
+        },
+        {
+          "date": "20/03/2026",
+          "med": "Melatonin PR",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Patel",
+          "change": "Started 2 mg at night",
+          "why": "Replace temazepam for sleep",
+          "monitor": "Sleep chart for 2 weeks"
+        },
+        {
+          "date": "20/03/2026",
+          "med": "Paracetamol",
+          "kind": "Change",
+          "type": "Made regular",
+          "by": "Dr Patel",
+          "change": "1 g as needed → 1330 mg MR three times daily",
+          "why": "Pain limiting walking",
+          "monitor": "Pain score each visit"
+        },
+        {
+          "date": "12/01/2026",
+          "med": "Apixaban",
+          "kind": "Change",
+          "type": "Dose reduced",
+          "by": "Dr Lim",
+          "change": "5 mg → 2.5 mg twice daily",
+          "why": "Age 84 and weight 58 kg",
+          "monitor": "Bruising and bleeding check"
+        },
+        {
+          "date": "2023",
+          "med": "Warfarin → apixaban",
+          "kind": "Change",
+          "type": "Switched",
+          "by": "Dr Lim",
+          "change": "Warfarin per INR → apixaban 5 mg twice daily",
+          "why": "Unstable INR results",
+          "monitor": "Kidney blood test yearly"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Amlodipine 5 mg",
+          "when": "2015 – 15/07/2026",
+          "why": "ankle swelling"
+        },
+        {
+          "med": "Trimethoprim 300 mg",
+          "when": "10/06 – 13/06/2026",
+          "why": "UTI course done"
+        },
+        {
+          "med": "Temazepam 10 mg",
+          "when": "2024 – 20/03/2026",
+          "why": "fall, drowsiness"
+        },
+        {
+          "med": "Warfarin",
+          "when": "2019 – 2023",
+          "why": "unstable INR"
+        },
+        {
+          "med": "Ibuprofen 200 mg",
+          "when": "2015 – 2023",
+          "why": "kidney and bleeding risk"
+        },
+        {
+          "med": "Paracetamol / codeine",
+          "when": "2018 – 2021",
+          "why": "nausea, confusion"
+        }
+      ],
+      "wearableCheck": [
+        [
+          "Sleep",
+          "6.1 → 6.4 h"
+        ],
+        [
+          "Daily steps",
+          "850 → 1,420"
+        ],
+        [
+          "Blood pressure",
+          "138/82 → 134/80"
+        ],
+        [
+          "Falls",
+          "2 → 0"
+        ]
+      ],
+      "visitsNote": "Last 5 visits each to the GP, hospital and medical centre, newest first",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "05/11/2026",
+              "place": "Home visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Anil Patel",
+              "why": "Monthly medication review, constipation follow-up",
+              "outcome": "Movicol changed to as needed"
+            },
+            {
+              "date": "18/08/2026",
+              "place": "Riverside Medical Centre",
+              "doctor": "General Practitioner",
+              "name": "Dr Anil Patel",
+              "why": "Blood results – kidney function down",
+              "outcome": "Metformin reduced; linagliptin started"
+            },
+            {
+              "date": "15/07/2026",
+              "place": "Riverside Medical Centre",
+              "doctor": "General Practitioner",
+              "name": "Dr Anil Patel",
+              "why": "Ankle swelling",
+              "outcome": "Amlodipine stopped; perindopril increased"
+            },
+            {
+              "date": "10/06/2026",
+              "place": "Home visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Anil Patel",
+              "why": "Burning urine, mild confusion",
+              "outcome": "UTI; trimethoprim for 3 days"
+            },
+            {
+              "date": "20/03/2026",
+              "place": "Home visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Anil Patel",
+              "why": "Review after fall and hospital discharge",
+              "outcome": "Temazepam stopped; melatonin and paracetamol started"
+            }
+          ]
+        },
+        {
+          "name": "Hospital",
+          "visits": [
+            {
+              "date": "22/09/2026",
+              "place": "Outpatient clinic",
+              "doctor": "Geriatrician",
+              "name": "Dr Tom Reid",
+              "why": "Memory and cognition review",
+              "outcome": "MMSE 24/30, stable; review in 12 months"
+            },
+            {
+              "date": "12/07/2026",
+              "place": "Outpatient clinic",
+              "doctor": "Cardiologist",
+              "name": "Dr Sarah Lim",
+              "why": "6-monthly atrial fibrillation review",
+              "outcome": "Continue apixaban 2.5 mg twice daily"
+            },
+            {
+              "date": "02/05/2026",
+              "place": "Falls and balance clinic",
+              "doctor": "Rehabilitation physician",
+              "name": "Dr Mei Chen",
+              "why": "Falls prevention after March fall",
+              "outcome": "8-week home physio program"
+            },
+            {
+              "date": "18/03/2026",
+              "place": "Emergency Department",
+              "doctor": "Emergency physician",
+              "name": "Dr James Ward",
+              "why": "Fall at home, right hip pain",
+              "outcome": "X-ray no fracture; discharged same day"
+            },
+            {
+              "date": "12/01/2026",
+              "place": "Outpatient clinic",
+              "doctor": "Cardiologist",
+              "name": "Dr Sarah Lim",
+              "why": "AF review, weight loss to 58 kg",
+              "outcome": "Apixaban reduced to 2.5 mg twice daily"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "14/11/2026",
+              "place": "Riverside Medical Centre",
+              "doctor": "Ophthalmologist",
+              "name": "Dr Priya Nair",
+              "why": "Yearly diabetic eye check",
+              "outcome": "Mild changes; review in 12 months"
+            },
+            {
+              "date": "16/08/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Kidney function and HbA1c bloods",
+              "outcome": "eGFR 52 mL/min; HbA1c 7.4%"
+            },
+            {
+              "date": "29/07/2026",
+              "place": "Riverside Medical Centre",
+              "doctor": "Practice nurse",
+              "name": "RN Kate Morris",
+              "why": "BP and kidney check after perindopril increase",
+              "outcome": "BP 134/80 mmHg; potassium normal"
+            },
+            {
+              "date": "15/04/2026",
+              "place": "Imaging",
+              "doctor": "Radiologist",
+              "name": "Dr Ben Hughes",
+              "why": "Bone density (DEXA) scan after fall",
+              "outcome": "Osteoporosis confirmed; continue alendronate"
+            },
+            {
+              "date": "10/02/2026",
+              "place": "Riverside Medical Centre",
+              "doctor": "Podiatrist",
+              "name": "Sam Taylor",
+              "why": "Diabetic foot check",
+              "outcome": "Feet healthy; review in 6 months"
+            }
+          ]
+        }
+      ]
+    },
+    "R002": {
+      "demoId": "DEMO-0002",
+      "dob": "08/06/1947",
+      "sex": "Male",
+      "program": "Home care · Support at Home",
+      "updated": "24/11/2026",
+      "allergies": [],
+      "profile": [
+        [
+          "Living situation",
+          "Lives with wife (Mei), Ryde NSW"
+        ],
+        [
+          "Care started",
+          "14/05/2025"
+        ],
+        [
+          "Care visits",
+          "Care worker Tue and Fri 10:00 (cleaning, shopping); RN every 3 months"
+        ],
+        [
+          "Mobility",
+          "Independent, no aid; walks 30 minutes most days"
+        ],
+        [
+          "Cognition",
+          "No impairment; makes own decisions"
+        ],
+        [
+          "Medication support",
+          "Self-manages; wife checks the weekly pill box"
+        ],
+        [
+          "Next of kin",
+          "Mei Tan (wife)"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Rachel Wong",
+          "role": "General Practitioner",
+          "note": "Ryde Family Practice"
+        },
+        {
+          "name": "Lisa Huang",
+          "role": "Credentialled diabetes educator",
+          "note": "Review every 6 months"
+        },
+        {
+          "name": "Jordan Lee",
+          "role": "Podiatrist",
+          "note": "Diabetic foot check every 6 months"
+        },
+        {
+          "name": "Ryde Village Pharmacy",
+          "role": "Pharmacy",
+          "note": "Monthly scripts"
+        }
+      ],
+      "conditions": [
+        [
+          "Type 2 diabetes",
+          "2015"
+        ],
+        [
+          "Hypertension",
+          "2016"
+        ],
+        [
+          "High cholesterol",
+          "2016"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "HbA1c (Sep 2026)",
+          "value": "6.9%",
+          "unit": ""
+        },
+        {
+          "label": "eGFR (Sep 2026)",
+          "value": "78",
+          "unit": "mL/min"
+        }
+      ],
+      "medsNote": "self-managed with his wife's help",
+      "meds": [
+        {
+          "med": "Metformin XR",
+          "dose": "1000 mg · 18:00 with dinner",
+          "forWhat": "Type 2 diabetes",
+          "started": "2015 – diabetes diagnosed",
+          "last": "02/12/2025 · changed to XR"
+        },
+        {
+          "med": "Empagliflozin",
+          "dose": "10 mg · 08:00",
+          "forWhat": "Type 2 diabetes",
+          "started": "10/03/2026 – replaced gliclazide after low sugars",
+          "last": ""
+        },
+        {
+          "med": "Perindopril",
+          "dose": "5 mg · 08:00",
+          "forWhat": "Hypertension",
+          "started": "2016 – blood pressure and kidney protection",
+          "last": ""
+        },
+        {
+          "med": "Atorvastatin",
+          "dose": "20 mg · 20:00",
+          "forWhat": "High cholesterol",
+          "started": "2016 – lower heart and stroke risk",
+          "last": "15/06/2024 · dose reduced"
+        }
+      ],
+      "changesBy": "the GP",
+      "changes": [
+        {
+          "date": "10/03/2026",
+          "med": "Gliclazide MR",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Wong",
+          "change": "30 mg once daily → stopped",
+          "why": "Two low blood sugar episodes (3.4 mmol/L)",
+          "monitor": "Blood glucose daily for 2 weeks"
+        },
+        {
+          "date": "10/03/2026",
+          "med": "Empagliflozin",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Wong",
+          "change": "Started 10 mg once daily",
+          "why": "Replace gliclazide with lower risk of low sugars",
+          "monitor": "Fluids on hot days; sick-day plan; HbA1c in 3 months"
+        },
+        {
+          "date": "02/12/2025",
+          "med": "Metformin",
+          "kind": "Change",
+          "type": "Switched to XR",
+          "by": "Dr Wong",
+          "change": "500 mg twice daily → 1000 mg XR with dinner",
+          "why": "Stomach upset; simpler once a day",
+          "monitor": "Bowel symptoms, blood glucose"
+        },
+        {
+          "date": "15/06/2024",
+          "med": "Atorvastatin",
+          "kind": "Change",
+          "type": "Dose reduced",
+          "by": "Dr Wong",
+          "change": "40 mg → 20 mg at night",
+          "why": "Muscle aches",
+          "monitor": "Muscle pain; cholesterol in 3 months"
+        },
+        {
+          "date": "2016",
+          "med": "Perindopril",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Wong",
+          "change": "Started 5 mg once daily",
+          "why": "High blood pressure with diabetes",
+          "monitor": "Kidney function and potassium yearly"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Gliclazide MR 30 mg",
+          "when": "2018 – 10/03/2026",
+          "why": "low blood sugar episodes"
+        },
+        {
+          "med": "Metformin 500 mg (standard)",
+          "when": "2015 – 02/12/2025",
+          "why": "stomach upset; changed to XR"
+        }
+      ],
+      "visitsNote": "Recent visits to the GP and medical centre, newest first. No hospital visits in the last 2 years.",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "22/09/2026",
+              "place": "Ryde Family Practice",
+              "doctor": "General Practitioner",
+              "name": "Dr Rachel Wong",
+              "why": "6-monthly diabetes review",
+              "outcome": "HbA1c 6.9%; no changes"
+            },
+            {
+              "date": "10/03/2026",
+              "place": "Ryde Family Practice",
+              "doctor": "General Practitioner",
+              "name": "Dr Rachel Wong",
+              "why": "Two low blood sugar episodes",
+              "outcome": "Gliclazide stopped; empagliflozin started"
+            },
+            {
+              "date": "02/12/2025",
+              "place": "Ryde Family Practice",
+              "doctor": "General Practitioner",
+              "name": "Dr Rachel Wong",
+              "why": "Stomach upset on metformin",
+              "outcome": "Changed to metformin XR"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "10/09/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "HbA1c, kidney function, cholesterol",
+              "outcome": "HbA1c 6.9%; eGFR 78; LDL 1.9 mmol/L"
+            },
+            {
+              "date": "05/08/2026",
+              "place": "Ryde Eye Care",
+              "doctor": "Optometrist",
+              "name": "Daniel Cho",
+              "why": "Yearly diabetic eye check",
+              "outcome": "No diabetic eye changes"
+            },
+            {
+              "date": "20/05/2026",
+              "place": "Ryde Family Practice",
+              "doctor": "Podiatrist",
+              "name": "Jordan Lee",
+              "why": "Diabetic foot check",
+              "outcome": "Feet healthy; review in 6 months"
+            },
+            {
+              "date": "14/04/2026",
+              "place": "Ryde Family Practice",
+              "doctor": "Diabetes educator",
+              "name": "Lisa Huang",
+              "why": "Review after medicine change",
+              "outcome": "Sick-day plan for empagliflozin explained"
+            }
+          ]
+        }
+      ]
+    },
+    "R003": {
+      "demoId": "DEMO-0003",
+      "dob": "30/01/1935",
+      "sex": "Female",
+      "program": "Residential aged care · memory support",
+      "updated": "13/11/2026",
+      "allergies": [
+        {
+          "name": "Sulfonamide antibiotics",
+          "reaction": "rash"
+        }
+      ],
+      "profile": [
+        [
+          "Living situation",
+          "Single room, memory support wing, Harbourview Aged Care, Balmain NSW"
+        ],
+        [
+          "Moved in",
+          "08/04/2023"
+        ],
+        [
+          "Care routine",
+          "24-hour care; RN on site; GP visits fortnightly"
+        ],
+        [
+          "Mobility",
+          "4-wheel frame with staff supervision; sensor mat beside bed"
+        ],
+        [
+          "Cognition",
+          "Moderate dementia; son is enduring guardian"
+        ],
+        [
+          "Medication support",
+          "Nurse-administered; large tablets taken with yoghurt"
+        ],
+        [
+          "Next of kin",
+          "Peter Walsh (son), enduring guardian"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Helen Fraser",
+          "role": "General Practitioner",
+          "note": "Visits Harbourview fortnightly"
+        },
+        {
+          "name": "Dr Sarah Lim",
+          "role": "Cardiologist",
+          "note": "AF review yearly"
+        },
+        {
+          "name": "Dr Tom Reid",
+          "role": "Geriatrician",
+          "note": "Dementia review yearly"
+        },
+        {
+          "name": "Harbour Pharmacy",
+          "role": "Pharmacy",
+          "note": "Residential medication review yearly"
+        }
+      ],
+      "conditions": [
+        [
+          "Hypertension",
+          "2005"
+        ],
+        [
+          "Atrial fibrillation",
+          "2014"
+        ],
+        [
+          "Osteoporosis",
+          "2017"
+        ],
+        [
+          "Reflux (GORD)",
+          "2019"
+        ],
+        [
+          "Dementia (Alzheimer's type)",
+          "2021"
+        ],
+        [
+          "Depression",
+          "2021"
+        ],
+        [
+          "Heart failure, mild",
+          "2026"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "eGFR (Oct 2026)",
+          "value": "62",
+          "unit": "mL/min"
+        },
+        {
+          "label": "Weight (Nov 2026)",
+          "value": "51",
+          "unit": "kg"
+        }
+      ],
+      "medsNote": "nurse-administered",
+      "meds": [
+        {
+          "med": "Apixaban",
+          "dose": "2.5 mg · 08:00, 20:00",
+          "forWhat": "Atrial fibrillation",
+          "started": "2020 – stroke prevention; replaced warfarin",
+          "last": ""
+        },
+        {
+          "med": "Metoprolol succinate",
+          "dose": "23.75 mg · 08:00",
+          "forWhat": "Atrial fibrillation, blood pressure",
+          "started": "2014 – heart rate control",
+          "last": ""
+        },
+        {
+          "med": "Donepezil",
+          "dose": "10 mg · 20:00",
+          "forWhat": "Dementia",
+          "started": "2021 – Alzheimer's dementia diagnosed",
+          "last": ""
+        },
+        {
+          "med": "Risperidone",
+          "dose": "0.25 mg · 20:00",
+          "forWhat": "Night-time agitation",
+          "started": "05/11/2026 – calling out and distress at night",
+          "last": ""
+        },
+        {
+          "med": "Sertraline",
+          "dose": "50 mg · 08:00",
+          "forWhat": "Depression",
+          "started": "2021 – low mood after diagnosis",
+          "last": "18/09/2026 · increased"
+        },
+        {
+          "med": "Furosemide",
+          "dose": "20 mg · 08:00",
+          "forWhat": "Heart failure",
+          "started": "14/07/2026 – ankle swelling, weight gain",
+          "last": ""
+        },
+        {
+          "med": "Pantoprazole",
+          "dose": "20 mg · 08:00",
+          "forWhat": "Reflux",
+          "started": "2019 – heartburn",
+          "last": ""
+        },
+        {
+          "med": "Paracetamol MR",
+          "dose": "1330 mg · 08:00, 20:00",
+          "forWhat": "Back and knee pain",
+          "started": "2022 – regular pain relief",
+          "last": ""
+        },
+        {
+          "med": "Denosumab",
+          "dose": "60 mg injection · every 6 months",
+          "forWhat": "Osteoporosis",
+          "started": "02/02/2026 – replaced alendronate (swallowing)",
+          "last": ""
+        },
+        {
+          "med": "Vitamin D",
+          "dose": "1000 IU · 08:00",
+          "forWhat": "Osteoporosis",
+          "started": "2017 – bone strength",
+          "last": ""
+        },
+        {
+          "med": "Movicol",
+          "dose": "1 sachet · 08:00",
+          "forWhat": "Constipation",
+          "started": "2022 – constipation",
+          "last": ""
+        }
+      ],
+      "changesBy": "the GP and specialists",
+      "changes": [
+        {
+          "date": "05/11/2026",
+          "med": "Risperidone",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Fraser",
+          "change": "Started 0.25 mg at night",
+          "why": "Night-time agitation and calling out",
+          "monitor": "Falls watch, drowsiness, walking; review in 2 weeks"
+        },
+        {
+          "date": "18/09/2026",
+          "med": "Sertraline",
+          "kind": "Change",
+          "type": "Dose increased",
+          "by": "Dr Fraser",
+          "change": "25 mg → 50 mg once daily",
+          "why": "Low mood, tearful",
+          "monitor": "Mood chart; sodium level in 4 weeks"
+        },
+        {
+          "date": "14/07/2026",
+          "med": "Furosemide",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Fraser",
+          "change": "Started 20 mg each morning",
+          "why": "Ankle swelling, weight up 2 kg (mild heart failure)",
+          "monitor": "Weight twice weekly; kidney test at 2 weeks"
+        },
+        {
+          "date": "30/04/2026",
+          "med": "Oxybutynin",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Fraser",
+          "change": "5 mg twice daily → stopped",
+          "why": "Pharmacist review: can worsen memory and confusion",
+          "monitor": "Continence chart for 2 weeks"
+        },
+        {
+          "date": "02/02/2026",
+          "med": "Alendronate",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Fraser",
+          "change": "70 mg weekly → stopped",
+          "why": "Trouble swallowing large tablets",
+          "monitor": "None needed"
+        },
+        {
+          "date": "02/02/2026",
+          "med": "Denosumab",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Fraser",
+          "change": "Started 60 mg injection every 6 months",
+          "why": "Keep treating osteoporosis without tablets",
+          "monitor": "Calcium level; next dose August 2026"
+        },
+        {
+          "date": "2021",
+          "med": "Donepezil",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Reid",
+          "change": "Started 5 mg, increased to 10 mg at night",
+          "why": "Alzheimer's dementia diagnosed",
+          "monitor": "Pulse (can slow heart rate), appetite, sleep"
+        },
+        {
+          "date": "2020",
+          "med": "Warfarin → apixaban",
+          "kind": "Change",
+          "type": "Switched",
+          "by": "Dr Lim",
+          "change": "Warfarin per INR → apixaban 2.5 mg twice daily",
+          "why": "Unstable INR; dose for age and weight",
+          "monitor": "Kidney blood test yearly"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Oxybutynin 5 mg",
+          "when": "2022 – 30/04/2026",
+          "why": "worsened confusion"
+        },
+        {
+          "med": "Alendronate 70 mg",
+          "when": "2017 – 02/02/2026",
+          "why": "swallowing difficulty"
+        },
+        {
+          "med": "Warfarin",
+          "when": "2014 – 2020",
+          "why": "unstable INR"
+        }
+      ],
+      "visitsNote": "Recent visits to the GP, hospital and medical centre, newest first",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "05/11/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Helen Fraser",
+              "why": "Night-time agitation, calling out",
+              "outcome": "Risperidone 0.25 mg started; review in 2 weeks"
+            },
+            {
+              "date": "18/09/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Helen Fraser",
+              "why": "Low mood, tearful",
+              "outcome": "Sertraline increased to 50 mg"
+            },
+            {
+              "date": "14/07/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Helen Fraser",
+              "why": "Swollen ankles, weight up 2 kg",
+              "outcome": "Mild heart failure; furosemide started"
+            },
+            {
+              "date": "30/04/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Helen Fraser",
+              "why": "Medication review with pharmacist",
+              "outcome": "Oxybutynin stopped"
+            },
+            {
+              "date": "02/02/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Helen Fraser",
+              "why": "Osteoporosis review; trouble swallowing tablets",
+              "outcome": "Alendronate stopped; denosumab started"
+            }
+          ]
+        },
+        {
+          "name": "Hospital",
+          "visits": [
+            {
+              "date": "22/08/2026",
+              "place": "Outpatient clinic",
+              "doctor": "Cardiologist",
+              "name": "Dr Sarah Lim",
+              "why": "Yearly atrial fibrillation review",
+              "outcome": "Rate controlled; continue apixaban 2.5 mg"
+            },
+            {
+              "date": "10/06/2026",
+              "place": "Memory clinic",
+              "doctor": "Geriatrician",
+              "name": "Dr Tom Reid",
+              "why": "Yearly dementia review",
+              "outcome": "MMSE 17/30, moderate; behaviour support plan"
+            },
+            {
+              "date": "14/12/2025",
+              "place": "Emergency Department",
+              "doctor": "Emergency physician",
+              "name": "Dr James Ward",
+              "why": "Fall in bathroom, cut to forehead",
+              "outcome": "CT head normal; wound glued; back same day"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "08/10/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Kidney function, sodium, blood count",
+              "outcome": "eGFR 62; sodium 136, normal"
+            },
+            {
+              "date": "16/07/2026",
+              "place": "Imaging",
+              "doctor": "Cardiac sonographer",
+              "name": "GP request",
+              "why": "Heart ultrasound (echo)",
+              "outcome": "Mild heart failure; EF 45%"
+            },
+            {
+              "date": "22/04/2026",
+              "place": "Harbourview Aged Care",
+              "doctor": "Pharmacist",
+              "name": "Lina Haddad",
+              "why": "Residential medication review",
+              "outcome": "Recommended stopping oxybutynin"
+            },
+            {
+              "date": "20/01/2026",
+              "place": "Harbourview Aged Care",
+              "doctor": "Speech pathologist",
+              "name": "Chloe Martin",
+              "why": "Swallowing assessment",
+              "outcome": "Soft diet; avoid large tablets"
+            }
+          ]
+        }
+      ]
+    },
+    "R004": {
+      "demoId": "DEMO-0004",
+      "dob": "21/01/1944",
+      "sex": "Male",
+      "program": "Home care · Support at Home",
+      "updated": "21/11/2026",
+      "allergies": [
+        {
+          "name": "Aspirin",
+          "reaction": "wheezing"
+        }
+      ],
+      "profile": [
+        [
+          "Living situation",
+          "Lives with his son's family, Eastwood NSW"
+        ],
+        [
+          "Care started",
+          "11/08/2025"
+        ],
+        [
+          "Care visits",
+          "Care worker Mon, Wed, Fri 09:00 (showering); RN fortnightly"
+        ],
+        [
+          "Mobility",
+          "Walking stick outdoors; breathless on stairs"
+        ],
+        [
+          "Cognition",
+          "No impairment; makes own decisions"
+        ],
+        [
+          "Language",
+          "Dari; son interprets day to day, phone interpreter for clinical visits"
+        ],
+        [
+          "Medication support",
+          "Self-manages inhalers; son fills weekly pill box"
+        ],
+        [
+          "Next of kin",
+          "Omid Karimi (son)"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Farah Siddiqui",
+          "role": "General Practitioner",
+          "note": "Eastwood Medical Practice"
+        },
+        {
+          "name": "Dr Michael Burns",
+          "role": "Respiratory physician",
+          "note": "Review yearly"
+        },
+        {
+          "name": "Hannah Price",
+          "role": "Physiotherapist",
+          "note": "Pulmonary rehab, completed June 2026"
+        },
+        {
+          "name": "Eastwood Pharmacy",
+          "role": "Pharmacy",
+          "note": "Inhaler technique checks"
+        }
+      ],
+      "conditions": [
+        [
+          "Hypertension",
+          "2010"
+        ],
+        [
+          "COPD (ex-smoker)",
+          "2012"
+        ],
+        [
+          "Gout",
+          "2018"
+        ],
+        [
+          "Enlarged prostate",
+          "2019"
+        ],
+        [
+          "High cholesterol",
+          "2019"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "Lung function, FEV1 (Mar 2026)",
+          "value": "48%",
+          "unit": "of predicted"
+        },
+        {
+          "label": "COPD flare-ups (12 months)",
+          "value": "1",
+          "unit": ""
+        }
+      ],
+      "medsNote": "inhalers self-managed",
+      "meds": [
+        {
+          "med": "Tiotropium/olodaterol inhaler",
+          "dose": "2 puffs · 08:00",
+          "forWhat": "COPD",
+          "started": "18/03/2026 – more breathless on tiotropium alone",
+          "last": ""
+        },
+        {
+          "med": "Salbutamol inhaler",
+          "dose": "100 mcg, 2 puffs · as needed",
+          "forWhat": "COPD (reliever)",
+          "started": "2012 – COPD diagnosed",
+          "last": ""
+        },
+        {
+          "med": "Amlodipine",
+          "dose": "5 mg · 08:00",
+          "forWhat": "Hypertension",
+          "started": "2010 – high blood pressure",
+          "last": ""
+        },
+        {
+          "med": "Allopurinol",
+          "dose": "100 mg · 08:00",
+          "forWhat": "Gout",
+          "started": "2018 – recurrent gout",
+          "last": ""
+        },
+        {
+          "med": "Tamsulosin",
+          "dose": "400 mcg · 21:00",
+          "forWhat": "Enlarged prostate",
+          "started": "05/01/2026 – getting up at night to pass urine",
+          "last": ""
+        },
+        {
+          "med": "Atorvastatin",
+          "dose": "20 mg · 21:00",
+          "forWhat": "High cholesterol",
+          "started": "2019 – lower heart risk",
+          "last": ""
+        }
+      ],
+      "changesBy": "the GP and respiratory physician",
+      "changes": [
+        {
+          "date": "12/08/2026",
+          "med": "Prednisolone",
+          "kind": "New",
+          "type": "Short course",
+          "by": "Dr Siddiqui",
+          "change": "40 mg each morning for 5 days",
+          "why": "COPD flare-up: cough, more breathless",
+          "monitor": "Breathing, blood sugar, sleep"
+        },
+        {
+          "date": "12/08/2026",
+          "med": "Doxycycline",
+          "kind": "New",
+          "type": "Short course",
+          "by": "Dr Siddiqui",
+          "change": "200 mg first day, then 100 mg daily for 4 days",
+          "why": "Green sputum, chest infection signs",
+          "monitor": "Temperature, sputum colour"
+        },
+        {
+          "date": "18/03/2026",
+          "med": "Tiotropium → tiotropium/olodaterol",
+          "kind": "Change",
+          "type": "Switched",
+          "by": "Dr Burns",
+          "change": "Tiotropium alone → combined inhaler, 2 puffs daily",
+          "why": "More breathless; FEV1 48%",
+          "monitor": "Breathlessness score; inhaler technique"
+        },
+        {
+          "date": "05/01/2026",
+          "med": "Tamsulosin",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Siddiqui",
+          "change": "Started 400 mcg at night",
+          "why": "Enlarged prostate; up 3 times a night",
+          "monitor": "Dizziness on standing; lying and standing BP"
+        },
+        {
+          "date": "2018",
+          "med": "Allopurinol",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Siddiqui",
+          "change": "Started 100 mg once daily",
+          "why": "Recurrent gout in big toe",
+          "monitor": "Uric acid and kidney test yearly"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Tiotropium 18 mcg",
+          "when": "2014 – 18/03/2026",
+          "why": "changed to combined inhaler"
+        },
+        {
+          "med": "Prednisolone 40 mg",
+          "when": "12/08 – 16/08/2026",
+          "why": "flare course done"
+        },
+        {
+          "med": "Doxycycline 100 mg",
+          "when": "12/08 – 16/08/2026",
+          "why": "course done"
+        },
+        {
+          "med": "Naproxen 250 mg",
+          "when": "2018 – 2019",
+          "why": "kidney and stomach risk"
+        }
+      ],
+      "visitsNote": "Recent visits to the GP, hospital and medical centre, newest first",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "02/10/2026",
+              "place": "Eastwood Medical Practice",
+              "doctor": "General Practitioner",
+              "name": "Dr Farah Siddiqui",
+              "why": "COPD action plan review",
+              "outcome": "Action plan updated; flu and COVID vaccines given"
+            },
+            {
+              "date": "12/08/2026",
+              "place": "Home visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Farah Siddiqui",
+              "why": "Cough, green sputum, more breathless",
+              "outcome": "COPD flare; prednisolone and doxycycline for 5 days"
+            },
+            {
+              "date": "05/03/2026",
+              "place": "Eastwood Medical Practice",
+              "doctor": "General Practitioner",
+              "name": "Dr Farah Siddiqui",
+              "why": "More breathless walking to the letterbox",
+              "outcome": "Lung function test; respiratory referral"
+            },
+            {
+              "date": "05/01/2026",
+              "place": "Eastwood Medical Practice",
+              "doctor": "General Practitioner",
+              "name": "Dr Farah Siddiqui",
+              "why": "Getting up 3 times a night to pass urine",
+              "outcome": "Tamsulosin started"
+            }
+          ]
+        },
+        {
+          "name": "Hospital",
+          "visits": [
+            {
+              "date": "09/06/2026",
+              "place": "Pulmonary rehab program",
+              "doctor": "Physiotherapist",
+              "name": "Hannah Price",
+              "why": "8-week exercise and breathing program",
+              "outcome": "Completed; 6-minute walk 260 → 310 m"
+            },
+            {
+              "date": "18/03/2026",
+              "place": "Outpatient clinic",
+              "doctor": "Respiratory physician",
+              "name": "Dr Michael Burns",
+              "why": "COPD review, worse breathlessness",
+              "outcome": "Inhaler switched; pulmonary rehab referral"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "20/10/2026",
+              "place": "Eastwood Pharmacy",
+              "doctor": "Pharmacist",
+              "name": "Nadia Rahimi",
+              "why": "Inhaler technique check",
+              "outcome": "Technique corrected; spacer for salbutamol"
+            },
+            {
+              "date": "15/07/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Kidney function, uric acid",
+              "outcome": "eGFR 66; uric acid in target"
+            },
+            {
+              "date": "12/03/2026",
+              "place": "Respiratory lab",
+              "doctor": "Respiratory scientist",
+              "name": "GP request",
+              "why": "Lung function test (spirometry)",
+              "outcome": "FEV1 48% of predicted"
+            }
+          ]
+        }
+      ]
+    },
+    "R005": {
+      "demoId": "DEMO-0005",
+      "dob": "02/07/1940",
+      "sex": "Female",
+      "program": "Residential aged care",
+      "updated": "12/11/2026",
+      "allergies": [
+        {
+          "name": "Latex",
+          "reaction": "skin rash"
+        },
+        {
+          "name": "Perindopril",
+          "reaction": "dry cough (intolerance)"
+        }
+      ],
+      "profile": [
+        [
+          "Living situation",
+          "Single room, Orange Valley Lodge, Orange NSW"
+        ],
+        [
+          "Moved in",
+          "19/09/2024"
+        ],
+        [
+          "Care routine",
+          "24-hour care; RN on site; GP visits weekly"
+        ],
+        [
+          "Mobility",
+          "Walks independently, slow on stairs; hip protectors"
+        ],
+        [
+          "Cognition",
+          "Mild cognitive impairment; decides with her daughter's help"
+        ],
+        [
+          "Language",
+          "Vietnamese and English"
+        ],
+        [
+          "Medication support",
+          "Nurse-administered; weighed daily before breakfast"
+        ],
+        [
+          "Next of kin",
+          "Linh Nguyen (daughter)"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Andrew McLeod",
+          "role": "General Practitioner",
+          "note": "Visits Orange Valley Lodge weekly"
+        },
+        {
+          "name": "Dr Kavita Rao",
+          "role": "Cardiologist",
+          "note": "Heart failure clinic, 3-monthly"
+        },
+        {
+          "name": "Jenny Collins",
+          "role": "Heart failure nurse",
+          "note": "Phone check fortnightly"
+        },
+        {
+          "name": "Orange Valley Pharmacy",
+          "role": "Pharmacy",
+          "note": "Weekly packs"
+        }
+      ],
+      "conditions": [
+        [
+          "Hypertension",
+          "2001"
+        ],
+        [
+          "Hypothyroidism",
+          "2010"
+        ],
+        [
+          "Osteoarthritis, hips",
+          "2016"
+        ],
+        [
+          "Heart failure (weak heart pump)",
+          "2019"
+        ],
+        [
+          "Mild cognitive impairment",
+          "2025"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "Heart pump, EF (Jun 2026)",
+          "value": "35%",
+          "unit": ""
+        },
+        {
+          "label": "NT-proBNP (Oct 2026)",
+          "value": "1,450",
+          "unit": "ng/L"
+        }
+      ],
+      "medsNote": "nurse-administered",
+      "meds": [
+        {
+          "med": "Sacubitril/valsartan",
+          "dose": "24/26 mg · 08:00, 20:00",
+          "forWhat": "Heart failure",
+          "started": "23/02/2026 – after heart failure admission; replaced candesartan",
+          "last": ""
+        },
+        {
+          "med": "Bisoprolol",
+          "dose": "2.5 mg · 08:00",
+          "forWhat": "Heart failure",
+          "started": "2019 – heart failure diagnosed",
+          "last": "16/06/2026 · increased"
+        },
+        {
+          "med": "Furosemide",
+          "dose": "20 mg · 08:00",
+          "forWhat": "Heart failure (fluid)",
+          "started": "2019 – fluid build-up",
+          "last": "28/10/2026 · dose reduced"
+        },
+        {
+          "med": "Spironolactone",
+          "dose": "12.5 mg · 08:00",
+          "forWhat": "Heart failure",
+          "started": "23/02/2026 – heart failure admission",
+          "last": ""
+        },
+        {
+          "med": "Dapagliflozin",
+          "dose": "10 mg · 08:00",
+          "forWhat": "Heart failure",
+          "started": "16/06/2026 – fewer hospital stays",
+          "last": ""
+        },
+        {
+          "med": "Levothyroxine",
+          "dose": "75 mcg · 06:00",
+          "forWhat": "Hypothyroidism",
+          "started": "2010 – underactive thyroid",
+          "last": ""
+        },
+        {
+          "med": "Paracetamol",
+          "dose": "1 g · as needed, max 4 g/day",
+          "forWhat": "Hip pain",
+          "started": "2016 – osteoarthritis",
+          "last": ""
+        }
+      ],
+      "changesBy": "the GP and cardiologist",
+      "changes": [
+        {
+          "date": "28/10/2026",
+          "med": "Furosemide",
+          "kind": "Change",
+          "type": "Dose reduced",
+          "by": "Dr McLeod",
+          "change": "40 mg → 20 mg each morning",
+          "why": "Dizzy on standing (BP 102/60); creatinine up",
+          "monitor": "Daily weight; tell RN if up 2 kg in 3 days"
+        },
+        {
+          "date": "16/06/2026",
+          "med": "Dapagliflozin",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Rao",
+          "change": "Started 10 mg once daily",
+          "why": "Heart failure; fewer hospital stays",
+          "monitor": "Fluids; urine infection symptoms"
+        },
+        {
+          "date": "16/06/2026",
+          "med": "Bisoprolol",
+          "kind": "Change",
+          "type": "Dose increased",
+          "by": "Dr Rao",
+          "change": "1.25 mg → 2.5 mg once daily",
+          "why": "Resting heart rate 88",
+          "monitor": "Pulse and BP daily for 2 weeks"
+        },
+        {
+          "date": "23/02/2026",
+          "med": "Candesartan → sacubitril/valsartan",
+          "kind": "Change",
+          "type": "Switched",
+          "by": "Dr Rao",
+          "change": "Candesartan 8 mg → sacubitril/valsartan 24/26 mg twice daily",
+          "why": "Heart failure admission; stronger heart protection",
+          "monitor": "BP; potassium and kidney test at 2 weeks"
+        },
+        {
+          "date": "23/02/2026",
+          "med": "Spironolactone",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Rao",
+          "change": "Started 12.5 mg once daily",
+          "why": "Heart failure",
+          "monitor": "Potassium at 1 week"
+        },
+        {
+          "date": "23/02/2026",
+          "med": "Furosemide",
+          "kind": "Change",
+          "type": "Dose increased",
+          "by": "Dr Rao",
+          "change": "20 mg → 40 mg each morning",
+          "why": "Fluid overload",
+          "monitor": "Daily weight"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Candesartan 8 mg",
+          "when": "2020 – 23/02/2026",
+          "why": "changed to sacubitril/valsartan"
+        },
+        {
+          "med": "Perindopril 4 mg",
+          "when": "2001 – 2020",
+          "why": "dry cough"
+        },
+        {
+          "med": "Atenolol 50 mg",
+          "when": "2001 – 2019",
+          "why": "changed to bisoprolol for heart failure"
+        }
+      ],
+      "visitsNote": "Recent visits to the GP, hospital and medical centre, newest first",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "28/10/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Andrew McLeod",
+              "why": "Dizzy when standing, BP 102/60",
+              "outcome": "Furosemide reduced to 20 mg"
+            },
+            {
+              "date": "22/09/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Andrew McLeod",
+              "why": "Routine heart failure check",
+              "outcome": "Weight stable at 61 kg; no change"
+            },
+            {
+              "date": "10/04/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Andrew McLeod",
+              "why": "Review after slip in the bathroom",
+              "outcome": "No injury; lying and standing BP; physio referral"
+            },
+            {
+              "date": "03/03/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Andrew McLeod",
+              "why": "Review after hospital discharge",
+              "outcome": "Daily weights started; plan for fluid gain"
+            }
+          ]
+        },
+        {
+          "name": "Hospital",
+          "visits": [
+            {
+              "date": "16/06/2026",
+              "place": "Heart failure clinic",
+              "doctor": "Cardiologist",
+              "name": "Dr Kavita Rao",
+              "why": "3-month review after admission",
+              "outcome": "EF 35%; dapagliflozin started; bisoprolol increased"
+            },
+            {
+              "date": "18/02/2026",
+              "place": "Hospital ward (5 days)",
+              "doctor": "General physician",
+              "name": "Dr Owen Price",
+              "why": "Breathless, swollen legs, fluid overload",
+              "outcome": "IV diuretics, 4 kg fluid off; medicines changed at discharge"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "11/11/2026",
+              "place": "Phone call",
+              "doctor": "Heart failure nurse",
+              "name": "Jenny Collins",
+              "why": "Fortnightly check",
+              "outcome": "Weight up 1.2 kg in a week; ankles puffy; GP review requested"
+            },
+            {
+              "date": "21/10/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Kidney function, potassium, NT-proBNP",
+              "outcome": "Creatinine up 15%; potassium 4.9; NT-proBNP 1,450"
+            },
+            {
+              "date": "14/06/2026",
+              "place": "Imaging",
+              "doctor": "Cardiac sonographer",
+              "name": "Cardiologist request",
+              "why": "Heart ultrasound (echo)",
+              "outcome": "EF 35%, up from 30%"
+            },
+            {
+              "date": "05/05/2026",
+              "place": "Orange Valley Lodge",
+              "doctor": "Physiotherapist",
+              "name": "Ben Wallace",
+              "why": "Falls and strength program",
+              "outcome": "Twice-weekly exercise group"
+            }
+          ]
+        }
+      ]
+    },
+    "R006": {
+      "demoId": "DEMO-0006",
+      "dob": "30/04/1949",
+      "sex": "Male",
+      "program": "Home care · Support at Home",
+      "updated": "18/11/2026",
+      "allergies": [],
+      "profile": [
+        [
+          "Living situation",
+          "Lives with wife (Carol), Bathurst NSW"
+        ],
+        [
+          "Care started",
+          "03/03/2026"
+        ],
+        [
+          "Care visits",
+          "Care worker Thursday 13:00 (garden, heavy cleaning)"
+        ],
+        [
+          "Mobility",
+          "Independent; stiff knees in the morning"
+        ],
+        [
+          "Cognition",
+          "No impairment"
+        ],
+        [
+          "Medication support",
+          "Self-manages"
+        ],
+        [
+          "Next of kin",
+          "Carol Brooks (wife)"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Emma Clarke",
+          "role": "General Practitioner",
+          "note": "Bathurst Medical Centre"
+        },
+        {
+          "name": "Dr Rajiv Menon",
+          "role": "Orthopaedic surgeon",
+          "note": "Knee replacement waiting list"
+        },
+        {
+          "name": "Kate O'Neill",
+          "role": "Physiotherapist",
+          "note": "Hydrotherapy group weekly"
+        },
+        {
+          "name": "Bathurst Pharmacy",
+          "role": "Pharmacy",
+          "note": "Monthly scripts"
+        }
+      ],
+      "conditions": [
+        [
+          "Osteoarthritis, knees and hands",
+          "2014"
+        ],
+        [
+          "High cholesterol",
+          "2018"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "Knee pain score (Oct 2026)",
+          "value": "5/10",
+          "unit": ""
+        },
+        {
+          "label": "LDL cholesterol (Jul 2026)",
+          "value": "2.1",
+          "unit": "mmol/L"
+        }
+      ],
+      "medsNote": "self-managed",
+      "meds": [
+        {
+          "med": "Paracetamol MR",
+          "dose": "1330 mg · 08:00, 20:00",
+          "forWhat": "Osteoarthritis pain",
+          "started": "2014 – knee pain",
+          "last": "03/02/2026 · made regular"
+        },
+        {
+          "med": "Diclofenac 1% gel",
+          "dose": "Rub on knees · up to 4 times a day",
+          "forWhat": "Osteoarthritis pain",
+          "started": "14/07/2026 – replaced celecoxib",
+          "last": ""
+        },
+        {
+          "med": "Atorvastatin",
+          "dose": "20 mg · 20:00",
+          "forWhat": "High cholesterol",
+          "started": "2018 – lower heart risk",
+          "last": ""
+        }
+      ],
+      "changesBy": "the GP",
+      "changes": [
+        {
+          "date": "14/07/2026",
+          "med": "Celecoxib",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Clarke",
+          "change": "100 mg twice daily → stopped",
+          "why": "Blood pressure rising (152/88); kidney and heart risk",
+          "monitor": "BP at next visit; pain score"
+        },
+        {
+          "date": "14/07/2026",
+          "med": "Diclofenac 1% gel",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Clarke",
+          "change": "Rub on knees up to 4 times a day",
+          "why": "Safer pain relief than tablets",
+          "monitor": "Pain score; skin irritation"
+        },
+        {
+          "date": "03/02/2026",
+          "med": "Paracetamol",
+          "kind": "Change",
+          "type": "Made regular",
+          "by": "Dr Clarke",
+          "change": "1 g as needed → 1330 mg MR twice daily",
+          "why": "Morning knee stiffness",
+          "monitor": "Pain score"
+        },
+        {
+          "date": "2018",
+          "med": "Atorvastatin",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Clarke",
+          "change": "Started 20 mg at night",
+          "why": "High cholesterol",
+          "monitor": "Cholesterol yearly"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Celecoxib 100 mg",
+          "when": "2024 – 14/07/2026",
+          "why": "BP rising, kidney and heart risk"
+        },
+        {
+          "med": "Glucosamine 1500 mg",
+          "when": "2015 – 2024",
+          "why": "no benefit"
+        }
+      ],
+      "visitsNote": "Recent visits to the GP, hospital and medical centre, newest first",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "08/10/2026",
+              "place": "Bathurst Medical Centre",
+              "doctor": "General Practitioner",
+              "name": "Dr Emma Clarke",
+              "why": "Knee pain; waiting list check",
+              "outcome": "Pain 5/10; stays on knee replacement list"
+            },
+            {
+              "date": "14/07/2026",
+              "place": "Bathurst Medical Centre",
+              "doctor": "General Practitioner",
+              "name": "Dr Emma Clarke",
+              "why": "BP 152/88 at a routine check",
+              "outcome": "Celecoxib stopped; diclofenac gel started"
+            },
+            {
+              "date": "03/02/2026",
+              "place": "Bathurst Medical Centre",
+              "doctor": "General Practitioner",
+              "name": "Dr Emma Clarke",
+              "why": "Morning knee stiffness",
+              "outcome": "Paracetamol made regular; physio referral"
+            }
+          ]
+        },
+        {
+          "name": "Hospital",
+          "visits": [
+            {
+              "date": "26/08/2026",
+              "place": "Outpatient clinic",
+              "doctor": "Orthopaedic surgeon",
+              "name": "Dr Rajiv Menon",
+              "why": "Right knee assessment",
+              "outcome": "Added to knee replacement waiting list"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "18/08/2026",
+              "place": "Imaging",
+              "doctor": "Radiologist",
+              "name": "Dr Ben Hughes",
+              "why": "Knee X-rays",
+              "outcome": "Severe right knee arthritis, moderate left"
+            },
+            {
+              "date": "15/07/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Cholesterol, kidney function",
+              "outcome": "LDL 2.1; eGFR 74"
+            },
+            {
+              "date": "10/03/2026",
+              "place": "Community health centre",
+              "doctor": "Physiotherapist",
+              "name": "Kate O'Neill",
+              "why": "Knee strength and hydrotherapy",
+              "outcome": "Weekly hydrotherapy group"
+            }
+          ]
+        }
+      ]
+    },
+    "R007": {
+      "demoId": "DEMO-0007",
+      "dob": "17/02/1937",
+      "sex": "Female",
+      "program": "Residential aged care",
+      "updated": "18/11/2026",
+      "allergies": [
+        {
+          "name": "Trimethoprim",
+          "reaction": "rash"
+        },
+        {
+          "name": "Morphine",
+          "reaction": "vomiting, confusion"
+        }
+      ],
+      "profile": [
+        [
+          "Living situation",
+          "Single room, Orange Valley Lodge, Orange NSW"
+        ],
+        [
+          "Moved in",
+          "12/01/2025"
+        ],
+        [
+          "Care routine",
+          "24-hour care; RN on site; GP visits weekly"
+        ],
+        [
+          "Mobility",
+          "4-wheel frame; staff stand-by for showering"
+        ],
+        [
+          "Cognition",
+          "Mild cognitive impairment; more confused when unwell"
+        ],
+        [
+          "Continence",
+          "Pads at night; prompted toileting; fluid chart, target 1.5 L a day"
+        ],
+        [
+          "Medication support",
+          "Nurse-administered from Webster-pak"
+        ],
+        [
+          "Next of kin",
+          "Fiona McAllister (daughter-in-law)"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Andrew McLeod",
+          "role": "General Practitioner",
+          "note": "Visits Orange Valley Lodge weekly"
+        },
+        {
+          "name": "Dr Lucy Tran",
+          "role": "Nephrologist",
+          "note": "Kidney review every 6 months"
+        },
+        {
+          "name": "Ruth Simmons",
+          "role": "Continence nurse",
+          "note": "Review every 6 months"
+        },
+        {
+          "name": "Orange Valley Pharmacy",
+          "role": "Pharmacy",
+          "note": "Weekly packs; antibiotic review"
+        }
+      ],
+      "conditions": [
+        [
+          "Hypertension",
+          "1998"
+        ],
+        [
+          "Osteoarthritis",
+          "2010"
+        ],
+        [
+          "Hypothyroidism",
+          "2012"
+        ],
+        [
+          "CKD stage 3",
+          "2021"
+        ],
+        [
+          "Recurrent UTI",
+          "2023"
+        ],
+        [
+          "Anaemia of kidney disease",
+          "2024"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "eGFR (Sep 2026)",
+          "value": "38",
+          "unit": "mL/min"
+        },
+        {
+          "label": "Haemoglobin (Sep 2026)",
+          "value": "104",
+          "unit": "g/L"
+        }
+      ],
+      "medsNote": "nurse-administered from Webster-pak",
+      "meds": [
+        {
+          "med": "Methenamine hippurate",
+          "dose": "1 g · 08:00, 20:00",
+          "forWhat": "Recurrent UTI (prevention)",
+          "started": "02/09/2026 – 3 UTIs in 6 months",
+          "last": ""
+        },
+        {
+          "med": "Oestriol vaginal cream",
+          "dose": "0.5 g · Mon and Thu nights",
+          "forWhat": "Recurrent UTI (prevention)",
+          "started": "02/09/2026 – lower UTI risk after menopause",
+          "last": ""
+        },
+        {
+          "med": "Irbesartan",
+          "dose": "150 mg · 08:00",
+          "forWhat": "Hypertension, kidney protection",
+          "started": "2021 – CKD and blood pressure",
+          "last": "14/04/2026 · dose reduced"
+        },
+        {
+          "med": "Amlodipine",
+          "dose": "5 mg · 08:00",
+          "forWhat": "Hypertension",
+          "started": "2021 – blood pressure",
+          "last": ""
+        },
+        {
+          "med": "Levothyroxine",
+          "dose": "50 mcg · 06:00",
+          "forWhat": "Hypothyroidism",
+          "started": "2012 – underactive thyroid",
+          "last": ""
+        },
+        {
+          "med": "Paracetamol",
+          "dose": "1 g · 08:00, 14:00, 20:00",
+          "forWhat": "Osteoarthritis pain",
+          "started": "2021 – replaced ibuprofen",
+          "last": ""
+        },
+        {
+          "med": "Ferrous sulfate",
+          "dose": "325 mg · 12:00, alternate days",
+          "forWhat": "Anaemia",
+          "started": "2024 – low iron and haemoglobin",
+          "last": ""
+        },
+        {
+          "med": "Vitamin D",
+          "dose": "1000 IU · 08:00",
+          "forWhat": "Bone health",
+          "started": "2021 – low vitamin D",
+          "last": ""
+        }
+      ],
+      "changesBy": "the GP and nephrologist",
+      "changes": [
+        {
+          "date": "13/11/2026",
+          "med": "Cefalexin",
+          "kind": "New",
+          "type": "Short course",
+          "by": "Dr McLeod",
+          "change": "500 mg twice daily for 5 days",
+          "why": "Suspected UTI: temperature 38.0, more confused, drinking less",
+          "monitor": "Temperature 4-hourly, fluid chart, urine culture result"
+        },
+        {
+          "date": "02/09/2026",
+          "med": "Methenamine hippurate",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr McLeod",
+          "change": "Started 1 g twice daily",
+          "why": "3 UTIs in 6 months; prevent without antibiotics",
+          "monitor": "Count UTIs over 6 months"
+        },
+        {
+          "date": "02/09/2026",
+          "med": "Oestriol vaginal cream",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr McLeod",
+          "change": "Started 0.5 g twice a week",
+          "why": "Lower UTI risk after menopause",
+          "monitor": "Skin irritation"
+        },
+        {
+          "date": "05/08/2026",
+          "med": "Nitrofurantoin",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr McLeod",
+          "change": "50 mg at night → stopped",
+          "why": "Kidney function too low for long-term use; UTIs continued",
+          "monitor": "UTI symptoms"
+        },
+        {
+          "date": "14/04/2026",
+          "med": "Irbesartan",
+          "kind": "Change",
+          "type": "Dose reduced",
+          "by": "Dr Tran",
+          "change": "300 mg → 150 mg once daily",
+          "why": "Potassium 5.6 mmol/L",
+          "monitor": "Potassium at 1 week, then monthly"
+        },
+        {
+          "date": "2021",
+          "med": "Ibuprofen",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Tran",
+          "change": "200 mg as needed → stopped",
+          "why": "Kidney function falling",
+          "monitor": "Kidney test every 6 months"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Cefalexin 500 mg",
+          "when": "13/11 – 17/11/2026",
+          "why": "UTI course done"
+        },
+        {
+          "med": "Cefalexin 500 mg",
+          "when": "05/08 – 09/08/2026",
+          "why": "UTI course done"
+        },
+        {
+          "med": "Amoxicillin/clavulanate 875/125 mg",
+          "when": "21/06 – 25/06/2026",
+          "why": "UTI course done"
+        },
+        {
+          "med": "Nitrofurantoin 50 mg",
+          "when": "2025 – 05/08/2026",
+          "why": "kidney function too low"
+        },
+        {
+          "med": "Ibuprofen 200 mg",
+          "when": "2010 – 2021",
+          "why": "kidney damage risk"
+        },
+        {
+          "med": "Hydrochlorothiazide 12.5 mg",
+          "when": "1998 – 2021",
+          "why": "low sodium"
+        }
+      ],
+      "visitsNote": "Recent visits to the GP, hospital and medical centre, newest first",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "13/11/2026",
+              "place": "Phone consult with RN",
+              "doctor": "General Practitioner",
+              "name": "Dr Andrew McLeod",
+              "why": "Temperature 38.0, more confused, not drinking",
+              "outcome": "Urine culture sent; cefalexin started; push fluids"
+            },
+            {
+              "date": "02/09/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Andrew McLeod",
+              "why": "Third UTI in 6 months",
+              "outcome": "Methenamine and vaginal oestrogen started"
+            },
+            {
+              "date": "05/08/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Andrew McLeod",
+              "why": "Burning urine, confusion",
+              "outcome": "UTI; cefalexin for 5 days; nitrofurantoin stopped"
+            },
+            {
+              "date": "21/06/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Andrew McLeod",
+              "why": "Burning urine, mild confusion",
+              "outcome": "UTI; amoxicillin/clavulanate for 5 days"
+            },
+            {
+              "date": "14/04/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Andrew McLeod",
+              "why": "High potassium on blood test",
+              "outcome": "Irbesartan reduced on nephrologist's advice"
+            }
+          ]
+        },
+        {
+          "name": "Hospital",
+          "visits": [
+            {
+              "date": "18/09/2026",
+              "place": "Renal clinic",
+              "doctor": "Nephrologist",
+              "name": "Dr Lucy Tran",
+              "why": "6-monthly kidney review",
+              "outcome": "eGFR 38, stable; continue irbesartan 150 mg"
+            },
+            {
+              "date": "03/03/2026",
+              "place": "Emergency Department, then ward (4 days)",
+              "doctor": "General physician",
+              "name": "Dr Owen Price",
+              "why": "Fever, low BP, confusion",
+              "outcome": "Kidney infection; IV antibiotics; back to the Lodge 07/03"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "15/11/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Urine culture (sent 13/11)",
+              "outcome": "E. coli, sensitive to cefalexin"
+            },
+            {
+              "date": "10/09/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Kidney function, blood count",
+              "outcome": "eGFR 38; haemoglobin 104 g/L"
+            },
+            {
+              "date": "23/06/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Urine culture",
+              "outcome": "E. coli; resistant to trimethoprim"
+            },
+            {
+              "date": "25/05/2026",
+              "place": "Orange Valley Lodge",
+              "doctor": "Continence nurse",
+              "name": "Ruth Simmons",
+              "why": "Continence assessment",
+              "outcome": "Night pads; prompted toileting; fluid target 1.5 L"
+            }
+          ]
+        }
+      ]
+    },
+    "R008": {
+      "demoId": "DEMO-0008",
+      "dob": "09/09/1942",
+      "sex": "Male",
+      "program": "Home care · Support at Home",
+      "updated": "14/11/2026",
+      "allergies": [
+        {
+          "name": "Metoclopramide",
+          "reaction": "much stiffer, could not walk (avoid in Parkinson's)"
+        }
+      ],
+      "profile": [
+        [
+          "Living situation",
+          "Lives with wife (Teresa), Blayney NSW"
+        ],
+        [
+          "Care started",
+          "22/06/2024"
+        ],
+        [
+          "Care visits",
+          "Care worker daily 07:30 (shower, dressing); RN weekly; physio fortnightly"
+        ],
+        [
+          "Mobility",
+          "4-wheel frame indoors and out; freezing in doorways"
+        ],
+        [
+          "Cognition",
+          "No impairment; slower thinking when medicines wear off"
+        ],
+        [
+          "Medication support",
+          "Parkinson's doses on time; Webster-pak and phone alarms; wife supervises"
+        ],
+        [
+          "Next of kin",
+          "Teresa Silva (wife)"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Peter Nash",
+          "role": "General Practitioner",
+          "note": "Blayney Medical Centre"
+        },
+        {
+          "name": "Dr Anita Kaur",
+          "role": "Neurologist",
+          "note": "Movement disorders clinic, every 4 months"
+        },
+        {
+          "name": "Michelle Grant",
+          "role": "Parkinson's nurse specialist",
+          "note": "Phone review monthly"
+        },
+        {
+          "name": "Tom Fielding",
+          "role": "Physiotherapist",
+          "note": "Home visits fortnightly"
+        }
+      ],
+      "conditions": [
+        [
+          "Parkinson's disease",
+          "2017"
+        ],
+        [
+          "Chronic constipation",
+          "2019"
+        ],
+        [
+          "Depression",
+          "2020"
+        ],
+        [
+          "Osteopenia",
+          "2024"
+        ],
+        [
+          "Acting out dreams (REM sleep disorder)",
+          "2026"
+        ],
+        [
+          "Low BP on standing",
+          "2026"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "BP lying → standing (Oct 2026)",
+          "value": "128/76 → 104/64",
+          "unit": ""
+        },
+        {
+          "label": "Falls (last 12 months)",
+          "value": "3",
+          "unit": ""
+        }
+      ],
+      "medsNote": "timed Parkinson's doses, wife supervises",
+      "meds": [
+        {
+          "med": "Levodopa/carbidopa",
+          "dose": "100/25 mg · 07:00, 11:00, 15:00, 19:00",
+          "forWhat": "Parkinson's disease",
+          "started": "2017 – Parkinson's diagnosed",
+          "last": "23/09/2026 · now 4 times daily"
+        },
+        {
+          "med": "Levodopa/carbidopa CR",
+          "dose": "200/50 mg · 22:00",
+          "forWhat": "Parkinson's (overnight)",
+          "started": "2021 – stiffness overnight",
+          "last": ""
+        },
+        {
+          "med": "Entacapone",
+          "dose": "200 mg · with each daytime levodopa dose",
+          "forWhat": "Parkinson's (wearing off)",
+          "started": "23/09/2026 – wearing off before next dose",
+          "last": ""
+        },
+        {
+          "med": "Fludrocortisone",
+          "dose": "0.1 mg · 08:00",
+          "forWhat": "Low BP on standing",
+          "started": "12/05/2026 – dizzy and falls",
+          "last": ""
+        },
+        {
+          "med": "Sertraline",
+          "dose": "50 mg · 08:00",
+          "forWhat": "Depression",
+          "started": "2020 – low mood",
+          "last": ""
+        },
+        {
+          "med": "Melatonin PR",
+          "dose": "2 mg · 21:30",
+          "forWhat": "Acting out dreams",
+          "started": "04/02/2026 – hitting out in sleep",
+          "last": ""
+        },
+        {
+          "med": "Movicol",
+          "dose": "1 sachet · 08:00",
+          "forWhat": "Constipation",
+          "started": "2019 – constipation",
+          "last": ""
+        },
+        {
+          "med": "Paracetamol MR",
+          "dose": "1330 mg · 08:00, 20:00",
+          "forWhat": "Shoulder and back pain",
+          "started": "2022 – stiffness pain",
+          "last": ""
+        },
+        {
+          "med": "Vitamin D",
+          "dose": "1000 IU · 08:00",
+          "forWhat": "Osteopenia",
+          "started": "2024 – bone strength",
+          "last": ""
+        },
+        {
+          "med": "Calcium carbonate",
+          "dose": "600 mg · 13:00 with lunch",
+          "forWhat": "Osteopenia",
+          "started": "2024 – bone strength",
+          "last": ""
+        }
+      ],
+      "changesBy": "the GP and neurologist",
+      "changes": [
+        {
+          "date": "23/09/2026",
+          "med": "Entacapone",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Kaur",
+          "change": "Started 200 mg with each daytime levodopa dose",
+          "why": "Wearing off before next dose; more freezing",
+          "monitor": "On/off diary; extra jerky movements; urine may turn orange"
+        },
+        {
+          "date": "23/09/2026",
+          "med": "Levodopa/carbidopa",
+          "kind": "Change",
+          "type": "Timing changed",
+          "by": "Dr Kaur",
+          "change": "3 times daily → 4 times daily (07:00, 11:00, 15:00, 19:00)",
+          "why": "Wearing off between doses",
+          "monitor": "On/off diary"
+        },
+        {
+          "date": "12/05/2026",
+          "med": "Tamsulosin",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Nash",
+          "change": "400 mcg at night → stopped",
+          "why": "Low BP on standing; 2 falls in April",
+          "monitor": "Urine flow; lying and standing BP"
+        },
+        {
+          "date": "12/05/2026",
+          "med": "Fludrocortisone",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Nash",
+          "change": "Started 0.1 mg each morning",
+          "why": "Dizzy and faint when standing",
+          "monitor": "Lying and standing BP weekly; ankle swelling; potassium"
+        },
+        {
+          "date": "04/02/2026",
+          "med": "Melatonin PR",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Nash",
+          "change": "Started 2 mg at night",
+          "why": "Acting out dreams, hitting out in sleep",
+          "monitor": "Sleep diary (kept by wife)"
+        },
+        {
+          "date": "2024",
+          "med": "Ropinirole",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Kaur",
+          "change": "2 mg three times daily → stopped",
+          "why": "Seeing things, daytime sleepiness",
+          "monitor": "Hallucinations, sleepiness"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Tamsulosin 400 mcg",
+          "when": "2020 – 12/05/2026",
+          "why": "low BP on standing"
+        },
+        {
+          "med": "Ropinirole 2 mg",
+          "when": "2018 – 2024",
+          "why": "hallucinations, sleepiness"
+        },
+        {
+          "med": "Metoclopramide 10 mg",
+          "when": "2017",
+          "why": "worsened stiffness; now listed as an allergy"
+        }
+      ],
+      "visitsNote": "Recent visits to the GP, hospital and medical centre, newest first",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "14/10/2026",
+              "place": "Blayney Medical Centre",
+              "doctor": "General Practitioner",
+              "name": "Dr Peter Nash",
+              "why": "Fall in the kitchen, bruised hip",
+              "outcome": "No fracture on examination; more physio visits"
+            },
+            {
+              "date": "12/05/2026",
+              "place": "Home visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Peter Nash",
+              "why": "Two falls in April, dizzy when standing",
+              "outcome": "Tamsulosin stopped; fludrocortisone started"
+            },
+            {
+              "date": "04/02/2026",
+              "place": "Blayney Medical Centre",
+              "doctor": "General Practitioner",
+              "name": "Dr Peter Nash",
+              "why": "Acting out dreams, hitting out in sleep",
+              "outcome": "Melatonin started"
+            }
+          ]
+        },
+        {
+          "name": "Hospital",
+          "visits": [
+            {
+              "date": "23/09/2026",
+              "place": "Movement disorders clinic",
+              "doctor": "Neurologist",
+              "name": "Dr Anita Kaur",
+              "why": "4-monthly Parkinson's review",
+              "outcome": "Wearing off; entacapone added; levodopa 4 times daily"
+            },
+            {
+              "date": "20/05/2026",
+              "place": "Falls and balance clinic",
+              "doctor": "Rehabilitation physician",
+              "name": "Dr Mei Chen",
+              "why": "Falls review",
+              "outcome": "Cueing for freezing; home safety check"
+            },
+            {
+              "date": "18/04/2026",
+              "place": "Emergency Department",
+              "doctor": "Emergency physician",
+              "name": "Dr Ravi Shah",
+              "why": "Fall at home, hit head",
+              "outcome": "CT head normal; discharged same day"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "11/11/2026",
+              "place": "Home visit",
+              "doctor": "Physiotherapist",
+              "name": "Tom Fielding",
+              "why": "Shuffling, more freezing episodes",
+              "outcome": "Walking frame review booked"
+            },
+            {
+              "date": "26/05/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Potassium after fludrocortisone",
+              "outcome": "Potassium 3.9, normal"
+            },
+            {
+              "date": "02/03/2026",
+              "place": "Blayney Medical Centre",
+              "doctor": "Speech pathologist",
+              "name": "Amy Rossi",
+              "why": "Swallowing and voice check",
+              "outcome": "Safe swallow; voice exercise program"
+            }
+          ]
+        }
+      ]
+    },
+    "R009": {
+      "demoId": "DEMO-0009",
+      "dob": "25/05/1933",
+      "sex": "Female",
+      "program": "Residential aged care",
+      "updated": "10/11/2026",
+      "allergies": [
+        {
+          "name": "Aspirin",
+          "reaction": "stomach bleeding"
+        }
+      ],
+      "profile": [
+        [
+          "Living situation",
+          "Shared room, Outback Gardens Hostel, Bourke NSW"
+        ],
+        [
+          "Moved in",
+          "04/11/2022"
+        ],
+        [
+          "Care routine",
+          "24-hour care; GP visits monthly, telehealth in between"
+        ],
+        [
+          "Mobility",
+          "4-wheel frame with one staff assist; hip protectors; low bed and sensor mat"
+        ],
+        [
+          "Cognition",
+          "Moderate dementia; son is enduring guardian"
+        ],
+        [
+          "Medication support",
+          "Nurse-administered from Webster-pak"
+        ],
+        [
+          "Next of kin",
+          "Graham Thompson (son), enduring guardian, lives in Adelaide"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Mark Ellison",
+          "role": "General Practitioner",
+          "note": "Bourke clinic; visits monthly"
+        },
+        {
+          "name": "Dr Tom Reid",
+          "role": "Geriatrician",
+          "note": "Telehealth dementia review every 6 months"
+        },
+        {
+          "name": "Joanne Kemp",
+          "role": "Pharmacist",
+          "note": "Residential medication review yearly"
+        },
+        {
+          "name": "Visiting dentist",
+          "role": "Dental",
+          "note": "Every 6 months"
+        }
+      ],
+      "conditions": [
+        [
+          "Hypertension",
+          "1990"
+        ],
+        [
+          "Osteoarthritis, knees and hips",
+          "2005"
+        ],
+        [
+          "Stomach ulcer (healed)",
+          "2016"
+        ],
+        [
+          "Osteoporosis",
+          "2019"
+        ],
+        [
+          "Dementia (vascular)",
+          "2020"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "MMSE (Aug 2026)",
+          "value": "14/30",
+          "unit": ""
+        },
+        {
+          "label": "Weight (Nov 2026)",
+          "value": "48",
+          "unit": "kg"
+        }
+      ],
+      "medsNote": "nurse-administered",
+      "meds": [
+        {
+          "med": "Buprenorphine patch",
+          "dose": "5 mcg/hour · changed every Monday",
+          "forWhat": "Osteoarthritis pain",
+          "started": "12/08/2026 – replaced as-needed oxycodone",
+          "last": ""
+        },
+        {
+          "med": "Paracetamol",
+          "dose": "1 g · 08:00, 14:00, 20:00",
+          "forWhat": "Osteoarthritis pain",
+          "started": "2018 – regular pain relief",
+          "last": ""
+        },
+        {
+          "med": "Mirtazapine",
+          "dose": "15 mg · 20:00",
+          "forWhat": "Low mood, poor appetite and sleep",
+          "started": "2023 – low mood and weight loss",
+          "last": "12/08/2026 · dose reduced"
+        },
+        {
+          "med": "Amlodipine",
+          "dose": "2.5 mg · 08:00",
+          "forWhat": "Hypertension",
+          "started": "2012 – high blood pressure",
+          "last": "15/03/2026 · dose reduced"
+        },
+        {
+          "med": "Pantoprazole",
+          "dose": "20 mg · 08:00",
+          "forWhat": "Stomach protection",
+          "started": "2016 – after stomach bleed",
+          "last": ""
+        },
+        {
+          "med": "Denosumab",
+          "dose": "60 mg injection · every 6 months",
+          "forWhat": "Osteoporosis",
+          "started": "09/02/2026 – fracture risk after fall",
+          "last": ""
+        },
+        {
+          "med": "Calcium carbonate",
+          "dose": "600 mg · 13:00",
+          "forWhat": "Osteoporosis",
+          "started": "09/02/2026 – with denosumab",
+          "last": ""
+        },
+        {
+          "med": "Vitamin D",
+          "dose": "1000 IU · 08:00",
+          "forWhat": "Osteoporosis",
+          "started": "2019 – bone strength",
+          "last": ""
+        },
+        {
+          "med": "Movicol",
+          "dose": "1 sachet · 08:00",
+          "forWhat": "Constipation",
+          "started": "12/08/2026 – with buprenorphine patch",
+          "last": ""
+        }
+      ],
+      "changesBy": "the GP and geriatrician",
+      "changes": [
+        {
+          "date": "12/08/2026",
+          "med": "Oxycodone",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Ellison",
+          "change": "5 mg as needed → stopped",
+          "why": "Drowsy after doses; fall with skin tear",
+          "monitor": "Pain score (PAINAD) each shift"
+        },
+        {
+          "date": "12/08/2026",
+          "med": "Buprenorphine patch",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Ellison",
+          "change": "Started 5 mcg/hour, changed weekly",
+          "why": "Steady pain relief instead of as-needed oxycodone",
+          "monitor": "PAINAD score, drowsiness, constipation"
+        },
+        {
+          "date": "12/08/2026",
+          "med": "Mirtazapine",
+          "kind": "Change",
+          "type": "Dose reduced",
+          "by": "Dr Ellison",
+          "change": "30 mg → 15 mg at night",
+          "why": "Unsteady in the mornings",
+          "monitor": "Sleep chart, falls watch, appetite"
+        },
+        {
+          "date": "15/03/2026",
+          "med": "Amlodipine",
+          "kind": "Change",
+          "type": "Dose reduced",
+          "by": "Dr Ellison",
+          "change": "5 mg → 2.5 mg once daily",
+          "why": "BP 105/60 and dizzy",
+          "monitor": "BP weekly"
+        },
+        {
+          "date": "09/02/2026",
+          "med": "Denosumab",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Ellison",
+          "change": "Started 60 mg injection every 6 months",
+          "why": "Fracture risk after January fall",
+          "monitor": "Calcium level; next dose August 2026"
+        },
+        {
+          "date": "2023",
+          "med": "Risperidone",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Reid",
+          "change": "0.5 mg at night → stopped",
+          "why": "Behaviour settled; falls and stroke risk",
+          "monitor": "Behaviour chart for 4 weeks"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Oxycodone 5 mg (as needed)",
+          "when": "2025 – 12/08/2026",
+          "why": "drowsiness, fall"
+        },
+        {
+          "med": "Risperidone 0.5 mg",
+          "when": "2021 – 2023",
+          "why": "no longer needed"
+        },
+        {
+          "med": "Aspirin 100 mg",
+          "when": "2010 – 2016",
+          "why": "stomach bleed"
+        }
+      ],
+      "visitsNote": "Recent visits to the GP, hospital and medical centre, newest first",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "07/11/2026",
+              "place": "Telehealth",
+              "doctor": "General Practitioner",
+              "name": "Dr Mark Ellison",
+              "why": "Monthly review",
+              "outcome": "Stable; weight 48 kg; no change"
+            },
+            {
+              "date": "12/08/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Mark Ellison",
+              "why": "Fall with skin tear; drowsy mornings",
+              "outcome": "Oxycodone stopped; patch started; mirtazapine reduced"
+            },
+            {
+              "date": "15/03/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Mark Ellison",
+              "why": "Dizzy, BP 105/60",
+              "outcome": "Amlodipine reduced to 2.5 mg"
+            },
+            {
+              "date": "09/02/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Mark Ellison",
+              "why": "Review after January fall",
+              "outcome": "Denosumab started"
+            }
+          ]
+        },
+        {
+          "name": "Hospital",
+          "visits": [
+            {
+              "date": "22/08/2026",
+              "place": "Telehealth clinic",
+              "doctor": "Geriatrician",
+              "name": "Dr Tom Reid",
+              "why": "6-monthly dementia review",
+              "outcome": "MMSE 14/30; behaviour stable"
+            },
+            {
+              "date": "28/01/2026",
+              "place": "Emergency Department",
+              "doctor": "Emergency physician",
+              "name": "Dr Laura Brennan",
+              "why": "Fall, right wrist pain",
+              "outcome": "X-ray no fracture; splint for 2 weeks"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "16/10/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Calcium, kidney function, blood count",
+              "outcome": "Calcium normal; eGFR 58"
+            },
+            {
+              "date": "20/09/2026",
+              "place": "Outback Gardens Hostel",
+              "doctor": "Dentist",
+              "name": "Visiting dentist",
+              "why": "Loose denture, eating less",
+              "outcome": "Denture relined; eating better"
+            },
+            {
+              "date": "14/05/2026",
+              "place": "Outback Gardens Hostel",
+              "doctor": "Pharmacist",
+              "name": "Joanne Kemp",
+              "why": "Yearly medication review",
+              "outcome": "Suggested reviewing oxycodone and mirtazapine"
+            }
+          ]
+        }
+      ]
+    },
+    "R010": {
+      "demoId": "DEMO-0010",
+      "dob": "12/12/1945",
+      "sex": "Male",
+      "program": "Home care · Support at Home",
+      "updated": "20/11/2026",
+      "allergies": [
+        {
+          "name": "Bee stings",
+          "reaction": "large local swelling"
+        }
+      ],
+      "profile": [
+        [
+          "Living situation",
+          "Lives alone on a property near Wilcannia NSW"
+        ],
+        [
+          "Care started",
+          "10/10/2025"
+        ],
+        [
+          "Care visits",
+          "Care worker fortnightly (shopping, cleaning); RN phone check monthly"
+        ],
+        [
+          "Mobility",
+          "Independent; still drives to town"
+        ],
+        [
+          "Cognition",
+          "No impairment"
+        ],
+        [
+          "Wearable",
+          "Charges his watch irregularly, so readings have gaps"
+        ],
+        [
+          "Medication support",
+          "Self-manages; pharmacy posts Webster-pak monthly"
+        ],
+        [
+          "Next of kin",
+          "Sharon O'Brien (daughter), Dubbo"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Sophie Grant",
+          "role": "General Practitioner",
+          "note": "Visiting clinic in Wilcannia, fortnightly"
+        },
+        {
+          "name": "RN Dave Kemp",
+          "role": "Community nurse",
+          "note": "Phone check monthly"
+        },
+        {
+          "name": "Broken Hill Pharmacy",
+          "role": "Pharmacy",
+          "note": "Webster-pak posted monthly"
+        }
+      ],
+      "conditions": [
+        [
+          "Hypertension",
+          "2009"
+        ],
+        [
+          "High cholesterol",
+          "2009"
+        ],
+        [
+          "Sun-damaged skin",
+          "2015"
+        ],
+        [
+          "Reflux",
+          "2019"
+        ],
+        [
+          "Gout (one flare)",
+          "2026"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "Home BP average (Oct 2026)",
+          "value": "136/82",
+          "unit": "mmHg"
+        },
+        {
+          "label": "LDL cholesterol (Oct 2026)",
+          "value": "1.8",
+          "unit": "mmol/L"
+        }
+      ],
+      "medsNote": "self-managed; Webster-pak by post",
+      "meds": [
+        {
+          "med": "Candesartan",
+          "dose": "16 mg · 08:00",
+          "forWhat": "Hypertension",
+          "started": "2009 – high blood pressure",
+          "last": ""
+        },
+        {
+          "med": "Amlodipine",
+          "dose": "5 mg · 08:00",
+          "forWhat": "Hypertension",
+          "started": "29/09/2026 – home BP average 152/90",
+          "last": ""
+        },
+        {
+          "med": "Atorvastatin",
+          "dose": "40 mg · 20:00",
+          "forWhat": "High cholesterol",
+          "started": "2009 – lower heart and stroke risk",
+          "last": ""
+        },
+        {
+          "med": "Esomeprazole",
+          "dose": "20 mg · 08:00",
+          "forWhat": "Reflux",
+          "started": "2019 – heartburn",
+          "last": ""
+        },
+        {
+          "med": "Paracetamol",
+          "dose": "1 g · as needed, max 4 g/day",
+          "forWhat": "Back pain",
+          "started": "2020 – lower back pain",
+          "last": ""
+        }
+      ],
+      "changesBy": "the GP",
+      "changes": [
+        {
+          "date": "29/09/2026",
+          "med": "Amlodipine",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Grant",
+          "change": "Started 5 mg once daily",
+          "why": "Home BP average 152/90",
+          "monitor": "Home BP 3 days a week; ankle swelling"
+        },
+        {
+          "date": "14/04/2026",
+          "med": "Aspirin",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Grant",
+          "change": "100 mg once daily → stopped",
+          "why": "No heart disease; bleeding risk now outweighs benefit",
+          "monitor": "None needed"
+        },
+        {
+          "date": "20/01/2026",
+          "med": "Hydrochlorothiazide",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Grant",
+          "change": "12.5 mg once daily → stopped",
+          "why": "Gout flare and low sodium",
+          "monitor": "Sodium in 2 weeks; BP"
+        },
+        {
+          "date": "20/01/2026",
+          "med": "Colchicine",
+          "kind": "New",
+          "type": "Short course",
+          "by": "Dr Grant",
+          "change": "500 mcg twice daily for 3 days",
+          "why": "Gout flare in big toe",
+          "monitor": "Diarrhoea; pain"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Colchicine 500 mcg",
+          "when": "20/01 – 22/01/2026",
+          "why": "gout course done"
+        },
+        {
+          "med": "Hydrochlorothiazide 12.5 mg",
+          "when": "2015 – 20/01/2026",
+          "why": "gout flare, low sodium"
+        },
+        {
+          "med": "Aspirin 100 mg",
+          "when": "2009 – 14/04/2026",
+          "why": "bleeding risk"
+        }
+      ],
+      "visitsNote": "Recent visits to the GP and medical centre, newest first. No hospital visits in the last 2 years.",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "29/09/2026",
+              "place": "Wilcannia clinic",
+              "doctor": "General Practitioner",
+              "name": "Dr Sophie Grant",
+              "why": "BP review with home readings",
+              "outcome": "Amlodipine started"
+            },
+            {
+              "date": "14/04/2026",
+              "place": "Wilcannia clinic",
+              "doctor": "General Practitioner",
+              "name": "Dr Sophie Grant",
+              "why": "Yearly check and medicines review",
+              "outcome": "Aspirin stopped; skin check booked"
+            },
+            {
+              "date": "20/01/2026",
+              "place": "Wilcannia clinic",
+              "doctor": "General Practitioner",
+              "name": "Dr Sophie Grant",
+              "why": "Painful, swollen big toe",
+              "outcome": "Gout flare; colchicine; hydrochlorothiazide stopped"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "12/10/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Yearly bloods",
+              "outcome": "eGFR 70; sodium normal; LDL 1.8"
+            },
+            {
+              "date": "18/06/2026",
+              "place": "Skin clinic, Broken Hill",
+              "doctor": "GP (skin cancer)",
+              "name": "Dr Lachlan Webb",
+              "why": "Skin check",
+              "outcome": "Two sunspots frozen; review in 12 months"
+            },
+            {
+              "date": "05/02/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Sodium after stopping thiazide",
+              "outcome": "Sodium 137, normal"
+            }
+          ]
+        }
+      ]
+    },
+    "R011": {
+      "demoId": "DEMO-0011",
+      "dob": "03/10/1941",
+      "sex": "Female",
+      "program": "Home care · Support at Home",
+      "updated": "22/11/2026",
+      "allergies": [
+        {
+          "name": "Erythromycin",
+          "reaction": "vomiting"
+        }
+      ],
+      "profile": [
+        [
+          "Living situation",
+          "Lives alone in a house, Wilcannia NSW"
+        ],
+        [
+          "Care started",
+          "15/03/2025"
+        ],
+        [
+          "Care visits",
+          "Care worker daily 08:30 (breakfast, medicine prompt); shopping Fridays"
+        ],
+        [
+          "Mobility",
+          "Walks slowly indoors, no aid (declines a stick); rarely goes out alone"
+        ],
+        [
+          "Vision",
+          "Low vision: legally blind left eye, reduced right eye"
+        ],
+        [
+          "Cognition",
+          "Mild cognitive impairment; daughter helps with appointments"
+        ],
+        [
+          "Medication support",
+          "Large-print Webster-pak; worker prompts mornings; talking clock for night eye drops"
+        ],
+        [
+          "Next of kin",
+          "Grace Park (daughter), Adelaide"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Sophie Grant",
+          "role": "General Practitioner",
+          "note": "Wilcannia clinic; home visits"
+        },
+        {
+          "name": "Dr Priya Nair",
+          "role": "Ophthalmologist",
+          "note": "Visiting eye clinic, injections every 8 weeks"
+        },
+        {
+          "name": "Megan Doyle",
+          "role": "Occupational therapist",
+          "note": "Low-vision aids and home safety"
+        },
+        {
+          "name": "Broken Hill Pharmacy",
+          "role": "Pharmacy",
+          "note": "Large-print Webster-pak, sent weekly"
+        }
+      ],
+      "conditions": [
+        [
+          "Hypothyroidism",
+          "2000"
+        ],
+        [
+          "Hypertension",
+          "2008"
+        ],
+        [
+          "Macular degeneration (wet left, dry right)",
+          "2019"
+        ],
+        [
+          "Mild cognitive impairment",
+          "2025"
+        ],
+        [
+          "Glaucoma",
+          "2026"
+        ],
+        [
+          "Anxiety",
+          "2026"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "Vision, right eye (Sep 2026)",
+          "value": "6/18",
+          "unit": ""
+        },
+        {
+          "label": "Vision, left eye (Sep 2026)",
+          "value": "6/60",
+          "unit": ""
+        }
+      ],
+      "medsNote": "large-print Webster-pak",
+      "meds": [
+        {
+          "med": "Aflibercept eye injection",
+          "dose": "2 mg · left eye every 8 weeks",
+          "forWhat": "Wet macular degeneration",
+          "started": "2023 – replaced ranibizumab, fewer injections",
+          "last": "24/09/2026 · now every 8 weeks"
+        },
+        {
+          "med": "Latanoprost 0.005% drops",
+          "dose": "1 drop both eyes · 21:00",
+          "forWhat": "Glaucoma",
+          "started": "10/01/2026 – raised eye pressure",
+          "last": ""
+        },
+        {
+          "med": "Eye vitamins (AREDS2)",
+          "dose": "1 capsule · 08:30, 18:00",
+          "forWhat": "Dry macular degeneration",
+          "started": "2019 – slow progression",
+          "last": ""
+        },
+        {
+          "med": "Levothyroxine",
+          "dose": "100 mcg · 06:00",
+          "forWhat": "Hypothyroidism",
+          "started": "2000 – underactive thyroid",
+          "last": ""
+        },
+        {
+          "med": "Irbesartan",
+          "dose": "150 mg · 08:30",
+          "forWhat": "Hypertension",
+          "started": "2008 – high blood pressure",
+          "last": ""
+        },
+        {
+          "med": "Sertraline",
+          "dose": "50 mg · 08:30",
+          "forWhat": "Anxiety, low mood",
+          "started": "02/07/2026 – anxious since vision loss",
+          "last": "16/07/2026 · increased"
+        }
+      ],
+      "changesBy": "the GP and ophthalmologist",
+      "changes": [
+        {
+          "date": "24/09/2026",
+          "med": "Aflibercept",
+          "kind": "Change",
+          "type": "Interval extended",
+          "by": "Dr Nair",
+          "change": "Every 6 weeks → every 8 weeks",
+          "why": "Macula dry and stable on scan",
+          "monitor": "Report any sudden change in vision"
+        },
+        {
+          "date": "16/07/2026",
+          "med": "Sertraline",
+          "kind": "Change",
+          "type": "Dose increased",
+          "by": "Dr Grant",
+          "change": "25 mg → 50 mg once daily",
+          "why": "Planned increase after 2 weeks",
+          "monitor": "Mood, sleep; sodium in 4 weeks"
+        },
+        {
+          "date": "02/07/2026",
+          "med": "Sertraline",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Grant",
+          "change": "Started 25 mg once daily",
+          "why": "Anxiety and low mood since vision loss",
+          "monitor": "Mood and sleep"
+        },
+        {
+          "date": "02/07/2026",
+          "med": "Zopiclone",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Grant",
+          "change": "7.5 mg at night → tapered off over 4 weeks",
+          "why": "Fall at night in May; drowsy mornings",
+          "monitor": "Sleep chart"
+        },
+        {
+          "date": "10/01/2026",
+          "med": "Latanoprost",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Nair",
+          "change": "Started 1 drop both eyes at night",
+          "why": "Raised eye pressure (glaucoma)",
+          "monitor": "Eye pressure in 3 months"
+        },
+        {
+          "date": "2023",
+          "med": "Ranibizumab → aflibercept",
+          "kind": "Change",
+          "type": "Switched",
+          "by": "Dr Nair",
+          "change": "Ranibizumab monthly → aflibercept every 6 weeks",
+          "why": "Fewer injections needed",
+          "monitor": "Vision and scan at each injection"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Zopiclone 7.5 mg",
+          "when": "2022 – 30/07/2026",
+          "why": "fall, morning drowsiness"
+        },
+        {
+          "med": "Ranibizumab eye injection",
+          "when": "2019 – 2023",
+          "why": "changed to aflibercept"
+        }
+      ],
+      "visitsNote": "Recent visits to the GP, hospital and medical centre, newest first",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "20/10/2026",
+              "place": "Home visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Sophie Grant",
+              "why": "Anxiety and sleep review",
+              "outcome": "Mood better; sleeping about 7 hours; continue sertraline"
+            },
+            {
+              "date": "02/07/2026",
+              "place": "Home visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Sophie Grant",
+              "why": "Anxious, poor sleep, low mood",
+              "outcome": "Sertraline started; zopiclone to be tapered"
+            },
+            {
+              "date": "20/05/2026",
+              "place": "Home visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Sophie Grant",
+              "why": "Review after fall on front step at night",
+              "outcome": "Night lights; OT home safety referral"
+            }
+          ]
+        },
+        {
+          "name": "Hospital",
+          "visits": [
+            {
+              "date": "16/05/2026",
+              "place": "Emergency Department",
+              "doctor": "Emergency physician",
+              "name": "Dr Laura Brennan",
+              "why": "Fall at night, grazed knees",
+              "outcome": "No fracture; dressings; home same night"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "24/09/2026",
+              "place": "Visiting eye clinic",
+              "doctor": "Ophthalmologist",
+              "name": "Dr Priya Nair",
+              "why": "Eye injection and scan",
+              "outcome": "Macula stable; injections every 8 weeks"
+            },
+            {
+              "date": "18/08/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Thyroid and sodium",
+              "outcome": "TSH normal; sodium 135"
+            },
+            {
+              "date": "12/06/2026",
+              "place": "Home visit",
+              "doctor": "Occupational therapist",
+              "name": "Megan Doyle",
+              "why": "Home safety and low-vision aids",
+              "outcome": "Night lights, rail on front step, talking clock"
+            },
+            {
+              "date": "10/01/2026",
+              "place": "Visiting eye clinic",
+              "doctor": "Ophthalmologist",
+              "name": "Dr Priya Nair",
+              "why": "Eye pressure check",
+              "outcome": "Pressure raised; latanoprost started"
+            }
+          ]
+        }
+      ]
+    },
+    "R012": {
+      "demoId": "DEMO-0012",
+      "dob": "19/08/1948",
+      "sex": "Male",
+      "program": "Residential aged care",
+      "updated": "16/11/2026",
+      "allergies": [
+        {
+          "name": "Shellfish",
+          "reaction": "hives"
+        }
+      ],
+      "profile": [
+        [
+          "Living situation",
+          "Single room, Outback Gardens Hostel, Bourke NSW"
+        ],
+        [
+          "Moved in",
+          "05/10/2023, after stroke rehabilitation"
+        ],
+        [
+          "Care routine",
+          "24-hour care; help with showering and dressing (weak right arm)"
+        ],
+        [
+          "Mobility",
+          "Walks independently, no aid; right arm weak"
+        ],
+        [
+          "Cognition",
+          "No impairment; mild word-finding difficulty since stroke"
+        ],
+        [
+          "Medication support",
+          "Nurse-administered"
+        ],
+        [
+          "Next of kin",
+          "Maria Russo (sister), Bourke"
+        ]
+      ],
+      "team": [
+        {
+          "name": "Dr Mark Ellison",
+          "role": "General Practitioner",
+          "note": "Bourke clinic; visits monthly"
+        },
+        {
+          "name": "Dr Nathan Cole",
+          "role": "Neurologist",
+          "note": "Telehealth stroke review yearly"
+        },
+        {
+          "name": "Isla Morgan",
+          "role": "Speech pathologist",
+          "note": "Group sessions monthly"
+        },
+        {
+          "name": "Bourke Pharmacy",
+          "role": "Pharmacy",
+          "note": "Weekly packs"
+        }
+      ],
+      "conditions": [
+        [
+          "Hypertension",
+          "2010"
+        ],
+        [
+          "High cholesterol",
+          "2010"
+        ],
+        [
+          "Stroke (left side of brain)",
+          "2023"
+        ],
+        [
+          "Word-finding difficulty (aphasia)",
+          "2023"
+        ],
+        [
+          "Low mood after stroke",
+          "2024"
+        ]
+      ],
+      "labs": [
+        {
+          "label": "BP (Oct 2026)",
+          "value": "128/76",
+          "unit": "mmHg"
+        },
+        {
+          "label": "LDL cholesterol (Aug 2026)",
+          "value": "1.6",
+          "unit": "mmol/L"
+        }
+      ],
+      "medsNote": "nurse-administered",
+      "meds": [
+        {
+          "med": "Clopidogrel",
+          "dose": "75 mg · 08:00",
+          "forWhat": "Stroke prevention",
+          "started": "2023 – after stroke",
+          "last": ""
+        },
+        {
+          "med": "Atorvastatin",
+          "dose": "80 mg · 20:00",
+          "forWhat": "Stroke prevention, cholesterol",
+          "started": "2010 – cholesterol; increased after stroke",
+          "last": ""
+        },
+        {
+          "med": "Perindopril/indapamide",
+          "dose": "5/1.25 mg · 08:00",
+          "forWhat": "Hypertension",
+          "started": "2010 – high blood pressure",
+          "last": "14/01/2026 · switched to combination"
+        },
+        {
+          "med": "Escitalopram",
+          "dose": "10 mg · 08:00",
+          "forWhat": "Low mood after stroke",
+          "started": "2024 – low mood, withdrawn",
+          "last": "03/06/2026 · increased"
+        }
+      ],
+      "changesBy": "the GP and neurologist",
+      "changes": [
+        {
+          "date": "03/06/2026",
+          "med": "Escitalopram",
+          "kind": "Change",
+          "type": "Dose increased",
+          "by": "Dr Ellison",
+          "change": "5 mg → 10 mg once daily",
+          "why": "Still low mood, not joining activities",
+          "monitor": "Mood chart; sodium in 4 weeks"
+        },
+        {
+          "date": "14/01/2026",
+          "med": "Perindopril → perindopril/indapamide",
+          "kind": "Change",
+          "type": "Switched",
+          "by": "Dr Ellison",
+          "change": "Perindopril 5 mg → perindopril/indapamide 5/1.25 mg",
+          "why": "BP above target after stroke (145/88)",
+          "monitor": "BP weekly; sodium and potassium at 2 weeks"
+        },
+        {
+          "date": "2024",
+          "med": "Escitalopram",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Ellison",
+          "change": "Started 5 mg once daily",
+          "why": "Low mood after stroke",
+          "monitor": "Mood chart"
+        },
+        {
+          "date": "2023",
+          "med": "Aspirin",
+          "kind": "Stopped",
+          "type": "Stopped",
+          "by": "Dr Cole",
+          "change": "100 mg daily → stopped after 21 days",
+          "why": "Planned: short dual therapy after stroke",
+          "monitor": "None needed"
+        },
+        {
+          "date": "2023",
+          "med": "Clopidogrel",
+          "kind": "New",
+          "type": "New medicine",
+          "by": "Dr Cole",
+          "change": "Started 75 mg once daily",
+          "why": "Stroke prevention",
+          "monitor": "Bruising, bleeding"
+        },
+        {
+          "date": "2023",
+          "med": "Atorvastatin",
+          "kind": "Change",
+          "type": "Dose increased",
+          "by": "Dr Cole",
+          "change": "40 mg → 80 mg at night",
+          "why": "Lower cholesterol target after stroke",
+          "monitor": "Cholesterol and liver test at 6 weeks"
+        }
+      ],
+      "previous": [
+        {
+          "med": "Perindopril 5 mg",
+          "when": "2010 – 14/01/2026",
+          "why": "changed to combination tablet"
+        },
+        {
+          "med": "Aspirin 100 mg",
+          "when": "2023 (21 days)",
+          "why": "planned short course after stroke"
+        }
+      ],
+      "visitsNote": "Recent visits to the GP, hospital and medical centre, newest first",
+      "visits": [
+        {
+          "name": "GP",
+          "visits": [
+            {
+              "date": "02/10/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Mark Ellison",
+              "why": "3-monthly review",
+              "outcome": "BP 128/76; mood better; joining activities"
+            },
+            {
+              "date": "03/06/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Mark Ellison",
+              "why": "Low mood, not joining activities",
+              "outcome": "Escitalopram increased"
+            },
+            {
+              "date": "14/01/2026",
+              "place": "Facility visit",
+              "doctor": "General Practitioner",
+              "name": "Dr Mark Ellison",
+              "why": "BP 145/88 on weekly checks",
+              "outcome": "Switched to perindopril/indapamide"
+            }
+          ]
+        },
+        {
+          "name": "Hospital",
+          "visits": [
+            {
+              "date": "19/08/2026",
+              "place": "Telehealth clinic",
+              "doctor": "Neurologist",
+              "name": "Dr Nathan Cole",
+              "why": "Yearly stroke review",
+              "outcome": "No new symptoms; continue clopidogrel and atorvastatin"
+            }
+          ]
+        },
+        {
+          "name": "Medical centre",
+          "visits": [
+            {
+              "date": "15/09/2026",
+              "place": "Outback Gardens Hostel",
+              "doctor": "Physiotherapist",
+              "name": "Jack Turner",
+              "why": "Right arm strength",
+              "outcome": "Home exercise program, 3 times a week"
+            },
+            {
+              "date": "12/08/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Cholesterol, kidney function, sodium",
+              "outcome": "LDL 1.6; sodium 137"
+            },
+            {
+              "date": "10/04/2026",
+              "place": "Outback Gardens Hostel",
+              "doctor": "Speech pathologist",
+              "name": "Isla Morgan",
+              "why": "Word-finding therapy",
+              "outcome": "Communication book; monthly group"
+            },
+            {
+              "date": "28/01/2026",
+              "place": "Pathology",
+              "doctor": "Pathology collector",
+              "name": "GP request",
+              "why": "Sodium and potassium after BP change",
+              "outcome": "Both normal"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

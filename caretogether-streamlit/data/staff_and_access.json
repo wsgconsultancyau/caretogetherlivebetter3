@@ -1,0 +1,275 @@
+{
+  "staff": [
+    {
+      "name": "RN Sarah Mitchell",
+      "role": "Registered Nurse (on call)"
+    },
+    {
+      "name": "Grace Lee",
+      "role": "AIN / Care worker"
+    },
+    {
+      "name": "RN Claire Hughes",
+      "role": "Registered Nurse"
+    },
+    {
+      "name": "Priya Shah",
+      "role": "Care coordinator"
+    },
+    {
+      "name": "Dr Andrew McLeod",
+      "role": "General Practitioner"
+    },
+    {
+      "name": "Tom Fielding",
+      "role": "Physiotherapist"
+    }
+  ],
+  "reasons": {
+    "Medical history": [
+      "Providing care today",
+      "Medication review",
+      "Clinical review or GP visit",
+      "Responding to an alert or incident",
+      "Care planning or case conference",
+      "Other (add a comment)"
+    ],
+    "Emergency location": [
+      "Responding to this alert",
+      "Searching for a missing person",
+      "Checking a device problem",
+      "Reviewing alerts",
+      "Other (add a comment)"
+    ]
+  },
+  "grant_minutes": 30,
+  "actions": {
+    "overview": "Viewed client overview",
+    "plan": "Viewed care plan",
+    "meds": "Viewed prescription changes",
+    "visits": "Viewed visit history",
+    "log": "Viewed access log"
+  },
+  "access_log_seed": [
+    {
+      "t": "2026-11-05T10:12",
+      "user": "Dr Anil Patel",
+      "role": "General Practitioner",
+      "rid": "R001",
+      "area": "Medical history",
+      "action": "Viewed prescription changes",
+      "reason": "Medication review",
+      "comment": "Monthly home visit; Movicol changed to as needed.",
+      "alert": ""
+    },
+    {
+      "t": "2026-11-05T10:20",
+      "user": "Dr Anil Patel",
+      "role": "General Practitioner",
+      "rid": "R001",
+      "area": "Medical history",
+      "action": "Viewed client overview",
+      "reason": "Medication review",
+      "comment": "",
+      "alert": ""
+    },
+    {
+      "t": "2026-11-05T14:02",
+      "user": "Dr Helen Fraser",
+      "role": "General Practitioner",
+      "rid": "R003",
+      "area": "Medical history",
+      "action": "Viewed prescription changes",
+      "reason": "Clinical review or GP visit",
+      "comment": "Starting risperidone 0.25 mg at night; checked current medicines first.",
+      "alert": ""
+    },
+    {
+      "t": "2026-11-11T09:40",
+      "user": "Tom Fielding",
+      "role": "Physiotherapist",
+      "rid": "R008",
+      "area": "Medical history",
+      "action": "Viewed client overview",
+      "reason": "Providing care today",
+      "comment": "Home physio visit; read falls history before the visit.",
+      "alert": ""
+    },
+    {
+      "t": "2026-11-12T16:30",
+      "user": "RN Sarah Mitchell",
+      "role": "Registered Nurse (on call)",
+      "rid": "R003",
+      "area": "Medical history",
+      "action": "Viewed visit history",
+      "reason": "Responding to an alert or incident",
+      "comment": "After near-miss alert A-1006.",
+      "alert": ""
+    },
+    {
+      "t": "2026-11-13T07:55",
+      "user": "RN Sarah Mitchell",
+      "role": "Registered Nurse (on call)",
+      "rid": "R007",
+      "area": "Medical history",
+      "action": "Viewed client overview",
+      "reason": "Providing care today",
+      "comment": "Fever and confusion overnight; preparing to call the GP.",
+      "alert": ""
+    },
+    {
+      "t": "2026-11-13T08:05",
+      "user": "Dr Andrew McLeod",
+      "role": "General Practitioner",
+      "rid": "R007",
+      "area": "Medical history",
+      "action": "Viewed prescription changes",
+      "reason": "Clinical review or GP visit",
+      "comment": "Checked allergies (trimethoprim) before starting cefalexin.",
+      "alert": ""
+    },
+    {
+      "t": "2026-11-13T20:40",
+      "user": "RN Sarah Mitchell",
+      "role": "Registered Nurse (on call)",
+      "rid": "R002",
+      "area": "Medical history",
+      "action": "Viewed client overview",
+      "reason": "Responding to an alert or incident",
+      "comment": "Missing person alert A-1009: checked next of kin and description.",
+      "alert": ""
+    },
+    {
+      "t": "2026-11-07T16:41",
+      "user": "Mick Davies",
+      "role": "Care worker",
+      "rid": "R009",
+      "area": "Emergency location",
+      "action": "Opened location",
+      "reason": "Searching for a missing person",
+      "comment": "",
+      "alert": "A-1001"
+    },
+    {
+      "t": "2026-11-08T07:47",
+      "user": "RN Dave Kemp",
+      "role": "Community nurse (on call)",
+      "rid": "R011",
+      "area": "Emergency location",
+      "action": "Opened location",
+      "reason": "Responding to this alert",
+      "comment": "Location at home; sent care worker early.",
+      "alert": "A-1002"
+    },
+    {
+      "t": "2026-11-09T09:05",
+      "user": "Priya Shah",
+      "role": "Care coordinator",
+      "rid": "R010",
+      "area": "Emergency location",
+      "action": "Viewed last known location",
+      "reason": "Checking a device problem",
+      "comment": "Last signal 08/11 18:20 at the property.",
+      "alert": "A-1003"
+    },
+    {
+      "t": "2026-11-10T14:11",
+      "user": "Monitoring centre operator",
+      "role": "Monitoring centre",
+      "rid": "R001",
+      "area": "Emergency location",
+      "action": "Opened location",
+      "reason": "Searching for a missing person",
+      "comment": "Margaret could not say where she was.",
+      "alert": "A-1004"
+    },
+    {
+      "t": "2026-11-10T14:14",
+      "user": "Helen Ellis",
+      "role": "Family (daughter, enduring guardian)",
+      "rid": "R001",
+      "area": "Emergency location",
+      "action": "Opened shared location link",
+      "reason": "Searching for a missing person",
+      "comment": "Driving to the bus interchange.",
+      "alert": "A-1004"
+    },
+    {
+      "t": "2026-11-12T02:11",
+      "user": "RN Ben Carter",
+      "role": "Registered Nurse (night)",
+      "rid": "R007",
+      "area": "Emergency location",
+      "action": "Opened location",
+      "reason": "Responding to this alert",
+      "comment": "",
+      "alert": "A-1007"
+    },
+    {
+      "t": "2026-11-12T15:06",
+      "user": "Grace Lee",
+      "role": "AIN / Care worker",
+      "rid": "R003",
+      "area": "Emergency location",
+      "action": "Opened location",
+      "reason": "Responding to this alert",
+      "comment": "",
+      "alert": "A-1006"
+    },
+    {
+      "t": "2026-11-13T18:40",
+      "user": "Priya Shah",
+      "role": "Care coordinator",
+      "rid": "R013",
+      "area": "Emergency location",
+      "action": "Tried to open location – blocked",
+      "reason": "Checking a device problem",
+      "comment": "Not shared: consent pending.",
+      "alert": "A-1008"
+    },
+    {
+      "t": "2026-11-13T20:38",
+      "user": "RN Sarah Mitchell",
+      "role": "Registered Nurse (on call)",
+      "rid": "R002",
+      "area": "Emergency location",
+      "action": "Opened location",
+      "reason": "Searching for a missing person",
+      "comment": "Not home by 20:30; family worried.",
+      "alert": "A-1009"
+    },
+    {
+      "t": "2026-11-13T20:44",
+      "user": "Lily Tan",
+      "role": "Family (daughter)",
+      "rid": "R002",
+      "area": "Emergency location",
+      "action": "Opened shared location link",
+      "reason": "Searching for a missing person",
+      "comment": "On my way to the park.",
+      "alert": "A-1009"
+    },
+    {
+      "t": "2026-11-13T20:51",
+      "user": "Grace Lee",
+      "role": "AIN / Care worker",
+      "rid": "R003",
+      "area": "Emergency location",
+      "action": "Opened location",
+      "reason": "Searching for a missing person",
+      "comment": "",
+      "alert": "A-1010"
+    },
+    {
+      "t": "2026-11-13T21:02",
+      "user": "RN Sarah Mitchell",
+      "role": "Registered Nurse (on call)",
+      "rid": "R002",
+      "area": "Emergency location",
+      "action": "Refreshed location",
+      "reason": "Searching for a missing person",
+      "comment": "",
+      "alert": "A-1009"
+    }
+  ]
+}

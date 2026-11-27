@@ -1,0 +1,14 @@
+resident_id,name,age,sex,care_setting,location_type,site,falls_last_12m,walking_aid,cognitive_impairment,medication_count,conditions
+R001,Margaret Ellis,84,F,Home care,Metro,Parramatta Home Care,2,Yes,Mild,9,Osteoporosis; Hypertension
+R002,George Tan,79,M,Home care,Metro,Ryde Home Support,0,No,None,4,Type 2 diabetes
+R003,Dorothy Walsh,91,F,Residential,Metro,Harbourview Aged Care,1,Yes,Moderate,11,Dementia; Atrial fibrillation
+R004,Ahmed Karimi,82,M,Home care,Metro,Ryde Home Support,0,Yes,None,6,COPD
+R005,Patricia Nguyen,86,F,Residential,Regional,Orange Valley Lodge,1,No,Mild,7,Heart failure
+R006,William Brooks,77,M,Home care,Regional,Central West Home Care,0,No,None,3,Arthritis
+R007,Joan McAllister,89,F,Residential,Regional,Orange Valley Lodge,0,Yes,Mild,8,Recurrent UTI; CKD stage 3
+R008,Raymond Silva,84,M,Home care,Regional,Central West Home Care,3,Yes,None,10,Parkinson's disease
+R009,Beryl Thompson,93,F,Residential,Remote,Outback Gardens Hostel,2,Yes,Moderate,9,Dementia; Osteoarthritis
+R010,Kevin O'Brien,80,M,Home care,Remote,Far West Community Care,0,No,None,5,Hypertension
+R011,Lillian Park,85,F,Home care,Remote,Far West Community Care,1,No,Mild,6,Macular degeneration
+R012,Frank Russo,78,M,Residential,Remote,Outback Gardens Hostel,0,No,None,4,Stroke (2023)
+R013,Irene Kowalski,83,F,Home care,Regional,Central West Home Care,1,Yes,None,6,Hypertension; Osteoarthritis
